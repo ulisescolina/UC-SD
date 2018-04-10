@@ -8,7 +8,7 @@
 ## Grupo 1 ##
 | Alumno | Legajo |
 |---------|---------|
-| Chripczuk Hector | |
+| Chripczuk Hector | LS00353 |
 | Ramirez Ulises   | LS00704 |             
 
 ## Acerca del Repositorio ##  
