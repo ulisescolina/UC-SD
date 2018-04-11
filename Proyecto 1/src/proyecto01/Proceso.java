@@ -5,7 +5,10 @@
  */
 package proyecto01;
 
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -14,25 +17,43 @@ import java.util.logging.Logger;
  *
  * @author seven
  */
-public class Proceso extends Thread{
-    
+public class Proceso extends Thread {
+
     private int controlEnvios, controlRecepciones, sumaEnvios, sumaRecepciones;
     private String host, serverIP;
     private int puerto, serverPort;
-    
-    public Proceso (String[] host, String[] server){
-        this.setHost(host[0]);
-        this.setPuerto(Integer.parseInt(host[1]));
+
+    public Proceso(String[][] host, String[] server, int posicion, String name) {
+        this.setHost(host[posicion][0]);
+        this.setPuerto(Integer.parseInt(host[posicion][1]));
         this.setServerIP(server[0]);
         this.setServerPort(Integer.parseInt(server[1]));
+        this.setName(name);
     }
 
     @Override
-    public void run (){
-        System.out.println(host + ":" + puerto);
+    public void run() {
+        //System.out.println(host + ":" + puerto);
         try {
             Socket nucleo = new Socket(this.serverIP, this.serverPort);
             // Enviar un mensaje por TCP para comprobar funcionamiento
+            BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
+            String linea = entrada.readLine();
+
+            DataOutputStream alServidor = new DataOutputStream(nucleo.getOutputStream());
+            BufferedReader delServidor = new BufferedReader(new InputStreamReader(nucleo.getInputStream()));
+
+            alServidor.writeBytes(linea + '\n'); // enviar lo obtenido de stdin
+            String resultado = delServidor.readLine(); // respuesta servidor
+            System.out.println(resultado);
+
+            try {
+                alServidor.close();
+                delServidor.close();
+                nucleo.close();
+            } catch (IOException e) {
+                System.out.println("Error al desconectarse");
+            }
         } catch (IOException ex) {
             Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -102,6 +123,4 @@ public class Proceso extends Thread{
         this.serverPort = serverPort;
     }
 
-    
-    
 }
