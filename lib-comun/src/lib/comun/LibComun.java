@@ -15,7 +15,8 @@ public class LibComun {
 
     HashMap<String, String[]> hosts = new HashMap<>();
     
-    public HashMap<String, String[]> getHosts(String nombreArchivo) {
+    public HashMap<String, String[]> getHosts(String nombreArchivo) 
+    {
         HashMap<String, String[]> auxHosts =  new HashMap<>();
         String archivoHostsTXT = System.getProperty("user.dir") + "/" + nombreArchivo;
         FileReader fr;
@@ -56,4 +57,10 @@ public class LibComun {
         }
         return auxHosts;
     }
+
+    public Iterator<Map.Entry<String, String[]>> getIterator(HashMap<String, String[]> it)
+    {
+        return it.entrySet().iterator();
+    }
+
 }

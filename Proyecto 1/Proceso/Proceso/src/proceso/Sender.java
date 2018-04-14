@@ -10,6 +10,11 @@ package proceso;
  * @author netbeans
  */
 public class Sender extends Thread {
+    int mpr, crr;
+    public Sender(int msjPorRonda, int cantRondasRealizar) {
+        this.mpr = msjPorRonda;
+        this.crr = cantRondasRealizar;
+    }
     
     @Override
     public void run() {
