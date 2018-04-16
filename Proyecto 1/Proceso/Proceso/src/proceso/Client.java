@@ -15,12 +15,16 @@ import java.util.logging.Logger;
  * @author netbeans
  */
 public class Client {
-    int puerto, controlEnvios = 0, controlRecepciones = 0, sumaEnvios = 0, sumaRecepciones = 0;
+    private int puerto, controlEnvios = 0, controlRecepciones = 0, sumaEnvios = 0, sumaRecepciones = 0;
+    private String ip;
     // Parametros 
-    int cantRondasARealizar = 5000, mensajesPorRonda =5;
+    private int cantRondasARealizar = 5000, mensajesPorRonda =5;
     
-    public Client (int p) {
+    int port = 7003;
+    
+    public Client (int p) throws UnknownHostException {
         this.puerto = p;
+        this.ip = Inet4Address.getLocalHost().getHostAddress();
     }
     
     public Client(int p, int mpr, int crr){
@@ -31,10 +35,9 @@ public class Client {
     
     public void conectar() {
         try {
-            int port = 7001;
             // Creamos el proceso que se encarga de recibir las conexiones TCP de
             // los otros procesos que estan levantados
-            Listener listener = new Listener();
+            Listener listener = new Listener(this); // se le pasa el objeto Client actual para poder acceder a los metodos y asi modificar los atributos
             listener.start();
             
             // Establecemos la conexion al Servidor (Clasificador de Salidas)
@@ -42,22 +45,86 @@ public class Client {
             DataOutputStream dos = new DataOutputStream(s.getOutputStream());
             // informamos que ql cliente esta levantado
             dos.writeUTF("UP: "+ String.valueOf(port)); // una vez finalizadas las pruebas esto puede desaparecer.
-            // dos.writeUTF("UP"+ String.valueOf(this.puerto));
+//             dos.writeUTF("UP"+ String.valueOf(this.getPuerto()));
             
             // Esperamos el mensaje para iniciar a trabajar
             ServerSocket ss = new ServerSocket(port); // una vez finalizadas las pruebas esto puede desaparecer.
-            //ServerSocket ss = new ServerSocket(this.puerto); 
+            //ServerSocket ss = new ServerSocket(this.getPuerto()); 
             Socket sEscucha = ss.accept();
             DataInputStream dis = new DataInputStream(sEscucha.getInputStream());
             String sign = dis.readUTF();
             System.out.println(sign);
             if ("START".equals(sign)) { // esto es trivial pero lo agrego, en un futuro nos podria servir
-                 Sender sender = new Sender(this.mensajesPorRonda, this.cantRondasARealizar);
+                 Sender sender = new Sender(this);
                  sender.start();
             }
-            
+            dos.close();
+            s.close();
+            dis.close();
+            ss.close();
         } catch (IOException ex) {
             Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
         }
+    }
+
+    public int getControlEnvios() {
+        return controlEnvios;
+    }
+
+    /*
+        Cantidad de mensajes enviados por el proceso.
+    */
+    public synchronized void incrementarControlEnvios() {
+        this.controlEnvios++;
+    }
+
+    
+    public int getControlRecepciones() {
+        return controlRecepciones;
+    }
+
+    /*
+        Cantidad de mensajes recibidos por el proceso.
+    */
+    public synchronized void incrementarControlRecepciones() {
+        this.controlRecepciones++;
+    }
+
+    public int getSumaEnvios() {
+        return sumaEnvios;
+    }
+    
+    /*
+        Suma de los envios que realizo el proceso.
+    */
+    public synchronized void incrementarSumaEnvios(int sumaEnvios) {
+        this.sumaEnvios += sumaEnvios;
+    }
+
+    public int getSumaRecepciones() {
+        return sumaRecepciones;
+    }
+
+    /*
+        Suma de enteros que fueron recibidos por los procesos.
+    */
+    public synchronized void incrementarSumaRecepciones(int sumaRecepciones) {
+        this.sumaRecepciones += sumaRecepciones;
+    }
+
+    public int getCantRondasARealizar() {
+        return cantRondasARealizar;
+    }
+
+    public int getMensajesPorRonda() {
+        return mensajesPorRonda;
+    }
+    
+    public int getPuerto() {
+        return this.port;
+    }
+    
+    public String getIP() {
+        return this.ip;
     }
 }

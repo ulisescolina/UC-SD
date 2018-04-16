@@ -7,10 +7,7 @@ package clasificador;
 
 import java.io.*;
 import java.net.*;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import lib.comun.LibComun;
@@ -22,7 +19,7 @@ import lib.comun.LibComun;
 public class Server {
     
     HashMap<String, String[]> hosts = new HashMap<>();
-    private static String[] server = {"localhost", "7000"};
+    private static final String[][] server = {{"localhost", "7000"},{"localhost", "6999"}};
     
     int clientesConectados = 0;
     public void iniciar()
@@ -32,7 +29,7 @@ public class Server {
         this.hosts = lc.getHosts("hosts.txt"); // obtenemos los host:puerto del archivo hosts.txt
         try {
             // Socket servidor que espera la conexion de los procesos
-            ServerSocket svc = new ServerSocket(Integer.parseInt(server[1]));
+            ServerSocket svc = new ServerSocket(Integer.parseInt(server[0][1]));
             while (clientesConectados < hosts.size()) { // Con esto conocemos cuantas lineas tiene el archivo hosts, por ende la cantidad de clientes que esperamos.
                                                         // tendriamos problemas si uno de ellos no se conecta. Como se dijo en clase, se supone que los clientes fallan
                 // esperamos a que los procesos se reporten como "levantados"
@@ -42,6 +39,9 @@ public class Server {
                 System.out.println(ready);
                 /*Agregar tratamiento para la recepcion de mensaje*/
                 clientesConectados++;
+                // Cerramos la conexion del socket
+                dis.close();
+                req.close();
             }
             
             /*
@@ -59,6 +59,26 @@ public class Server {
                 DataOutputStream dos = new DataOutputStream(s.getOutputStream());
                 // enviamos la señal de inicio.
                 dos.writeUTF("START");
+                // Cerramos la conexion del socket
+                dos.close();
+                s.close();
+            }
+            
+            /*
+                A partir de aca inicia el procedimiento para emitir el informe
+            */
+            svc = new ServerSocket(Integer.parseInt(server[1][1]));
+            int datoProceso=0;
+            System.out.println("Esperamos a que lleguen los datos de cada proceso.");                
+            while (datoProceso < hosts.size()) { // Con esto conocemos cuantas lineas tiene el archivo hosts, por ende la cantidad de clientes que esperamos.
+                                                        // tendriamos problemas si uno de ellos no se conecta. Como se dijo en clase, se supone que los clientes fallan
+                // esperamos a que los procesos reporten sus datos
+                Socket req = svc.accept();
+                DataInputStream dis = new DataInputStream(req.getInputStream());
+                String datos = dis.readUTF();
+                System.out.println(datos);
+                /*Agregar tratamiento para la recepcion de mensaje*/
+                datoProceso++;
             }
             
         } catch (IOException ex) {

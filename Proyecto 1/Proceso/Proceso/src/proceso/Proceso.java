@@ -18,7 +18,7 @@ public class Proceso {
 
     
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnknownHostException {
         if (args.length > 1) {
             System.err.println("Solo se espera un argumento que represente al Puerto.");
             return;
