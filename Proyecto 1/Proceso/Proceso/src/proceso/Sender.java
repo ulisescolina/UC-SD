@@ -88,6 +88,6 @@ public class Sender extends Thread {
     
     private String armarDatosEnviar(String host, int puerto, int msjEnviados, int msjRecepciones, int sumaEnvios, int sumaRecepciones)
     {
-        return (host+":"+String.valueOf(puerto)+":"+String.valueOf(msjEnviados)+":"+String.valueOf(msjRecepciones)+":"+String.valueOf(sumaEnvios)+":"+String.valueOf(sumaRecepciones));
+        return (host+":"+String.valueOf(puerto)+"\t|\t"+String.valueOf(msjEnviados)+"\t|\t"+String.valueOf(msjRecepciones)+"\t|\t"+String.valueOf(sumaEnvios)+"\t|\t"+String.valueOf(sumaRecepciones));
     }
 }

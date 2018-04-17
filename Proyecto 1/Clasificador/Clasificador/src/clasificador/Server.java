@@ -69,7 +69,10 @@ public class Server {
             */
             svc = new ServerSocket(Integer.parseInt(server[1][1]));
             int datoProceso=0;
-            System.out.println("Esperamos a que lleguen los datos de cada proceso.");                
+            System.out.println("Esperamos a que lleguen los datos de cada proceso.");
+            System.out.println("CME: Cant. Msj. Enviados\nCMR: Cant. Msj. Recibidos\nSME: Suma Msj. Enviados\nSMR: Suma Msj. Recibidos");
+            System.out.println("NODO\t\t|\tCME\t|\tCMR\t|\tSME\t|\tSMR");
+            System.out.println("-----------------------------------------------------------------------------------");
             while (datoProceso < hosts.size()) { // Con esto conocemos cuantas lineas tiene el archivo hosts, por ende la cantidad de clientes que esperamos.
                                                         // tendriamos problemas si uno de ellos no se conecta. Como se dijo en clase, se supone que los clientes fallan
                 // esperamos a que los procesos reporten sus datos

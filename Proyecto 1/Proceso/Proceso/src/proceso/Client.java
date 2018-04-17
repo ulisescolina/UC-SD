@@ -20,17 +20,9 @@ public class Client {
     // Parametros 
     private int cantRondasARealizar = 5000, mensajesPorRonda =5;
     
-    int port = 7003;
-    
     public Client (int p) throws UnknownHostException {
         this.puerto = p;
         this.ip = Inet4Address.getLocalHost().getHostAddress();
-    }
-    
-    public Client(int p, int mpr, int crr){
-        this.puerto = p;
-        this.mensajesPorRonda = mpr;
-        this.cantRondasARealizar = crr;
     }
     
     public void conectar() {
@@ -44,12 +36,10 @@ public class Client {
             Socket s = new Socket("localhost", 7000);
             DataOutputStream dos = new DataOutputStream(s.getOutputStream());
             // informamos que ql cliente esta levantado
-            dos.writeUTF("UP: "+ String.valueOf(port)); // una vez finalizadas las pruebas esto puede desaparecer.
-//             dos.writeUTF("UP"+ String.valueOf(this.getPuerto()));
+            dos.writeUTF("UP"+ String.valueOf(this.getPuerto()));
             
             // Esperamos el mensaje para iniciar a trabajar
-            ServerSocket ss = new ServerSocket(port); // una vez finalizadas las pruebas esto puede desaparecer.
-            //ServerSocket ss = new ServerSocket(this.getPuerto()); 
+            ServerSocket ss = new ServerSocket(this.getPuerto()); 
             Socket sEscucha = ss.accept();
             DataInputStream dis = new DataInputStream(sEscucha.getInputStream());
             String sign = dis.readUTF();
@@ -121,7 +111,7 @@ public class Client {
     }
     
     public int getPuerto() {
-        return this.port;
+        return this.puerto;
     }
     
     public String getIP() {
