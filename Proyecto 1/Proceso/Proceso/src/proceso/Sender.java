@@ -20,14 +20,15 @@ public class Sender extends Thread {
     private final int mpr, crr;
     private final int LIM_SUP = 100;
     private Client c;
-    HashMap<String, String[]> hosts = new HashMap<>();
+    private Iterator<Map.Entry<String, String[]>> it;
+
     
     public Sender(Client c) 
     {
         this.mpr = c.getMensajesPorRonda();
         this.crr = c.getCantRondasARealizar();
         this.c = c;
-        this.hosts = (new LibComun()).getHosts("hosts.txt");// instanciamos libreria que contiene metodos comunes entre proyectos, ej: obtener las lineas de hosts:puerto.
+        
     }
     
     @Override
@@ -35,9 +36,33 @@ public class Sender extends Thread {
         for (int i = 0; i < this.crr; i++) {
             realizarRonda(i);
         }
-        reportarDatosProceso("localhost",6999);
+        finalizado();
     }
-
+    
+    private void finalizado() 
+    {
+        it = c.getIt();
+        while (it.hasNext()) {  
+                Map.Entry<String, String[]> elemento = it.next();
+                /* Con elemento estoy accediendo a uno de los objetos del iterador
+                getKey: devuelve la clave del elemento.
+                getValue: devuelve el valor del elemento. */
+                Socket s;
+            try {
+                s = new Socket(elemento.getValue()[0], Integer.parseInt(elemento.getValue()[1])+1000);
+                DataOutputStream dos = new DataOutputStream(s.getOutputStream());
+                // enviamos la señal de inicio.
+                dos.writeUTF("FIN");
+                // Cerramos la conexion del socket
+                dos.close();
+                s.close();
+            } catch (IOException ex) {
+                Logger.getLogger(Sender.class.getName()).log(Level.SEVERE, null, ex);
+            }
+                
+            }
+    }
+    
     private void realizarRonda(int i) 
     {
         try {
@@ -62,17 +87,6 @@ public class Sender extends Thread {
             }
     }    
     
-    private void reportarDatosProceso(String host, int puerto)
-    {
-        String datos = this.armarDatosEnviar(c.getIP(), c.getPuerto(), c.getControlEnvios(), c.getControlRecepciones(), c.getSumaEnvios(), c.getSumaRecepciones());
-        try {
-            Socket s = new Socket(host, puerto);
-            DataOutputStream dos = new DataOutputStream(s.getOutputStream());
-            dos.writeUTF(datos);
-        } catch (IOException ex) {
-            Logger.getLogger(Sender.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }
     
     private static int getEnteroAleatorio(int limSup)
     {
@@ -82,12 +96,8 @@ public class Sender extends Thread {
     
     private int getProcesoAleatorio()
     {
-        int proceso = Sender.getEnteroAleatorio(hosts.size());
+        int proceso = Sender.getEnteroAleatorio(c.getHosts().size());
         return proceso;
     }
     
-    private String armarDatosEnviar(String host, int puerto, int msjEnviados, int msjRecepciones, int sumaEnvios, int sumaRecepciones)
-    {
-        return (host+":"+String.valueOf(puerto)+"\t|\t"+String.valueOf(msjEnviados)+"\t|\t"+String.valueOf(msjRecepciones)+"\t|\t"+String.valueOf(sumaEnvios)+"\t|\t"+String.valueOf(sumaRecepciones));
-    }
 }

@@ -7,8 +7,10 @@ package proceso;
 
 import java.io.*;
 import java.net.*;
+import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import lib.comun.LibComun;
 
 /**
  *
@@ -16,13 +18,21 @@ import java.util.logging.Logger;
  */
 public class Client {
     private int puerto, controlEnvios = 0, controlRecepciones = 0, sumaEnvios = 0, sumaRecepciones = 0;
+    private HashMap<String, String[]> hosts = new HashMap<>();
     private String ip;
+    private Client c;
+    private LibComun lib;
+    private Iterator<Map.Entry<String, String[]>> it;
+        
     // Parametros 
     private int cantRondasARealizar = 5000, mensajesPorRonda =5;
     
     public Client (int p) throws UnknownHostException {
         this.puerto = p;
         this.ip = Inet4Address.getLocalHost().getHostAddress();
+        this.lib = new LibComun();
+        this.hosts = lib.getHosts("hosts.txt");// instanciamos libreria que contiene metodos comunes entre proyectos, ej: obtener las lineas de hosts:puerto.
+        this.it = lib.getIterator(this.hosts);
     }
     
     public void conectar() {
@@ -108,6 +118,14 @@ public class Client {
 
     public int getMensajesPorRonda() {
         return mensajesPorRonda;
+    }
+
+    public HashMap<String, String[]> getHosts() {
+        return hosts;
+    }
+
+    public Iterator<Map.Entry<String, String[]>> getIt() {
+        return it;
     }
     
     public int getPuerto() {
