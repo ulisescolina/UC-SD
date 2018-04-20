@@ -5,32 +5,28 @@
  */
 package clientelogs;
 
+import java.util.Scanner;
+import lib.comun.LibComun;
+
 /**
  *
  * @author netbeans
  */
 public class ClienteLOGS {
-
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) throws InterruptedException {
-        String consulta = concatenarConsulta(args);
-        Cliente c = new Cliente();
+        LibComun lc = new LibComun();
+        //Instanciamos al cliente que se va a encargar de realizar las consultas
+        Cliente c = new Cliente(lc.getIterator(lc.getHosts("servers.txt")));
+        
+        System.out.print("Ingrese el termino que desea buscar en los servidores: ");
+        Scanner sc = new Scanner(System.in);
+        String consulta = sc.nextLine();
+        
+        // iniciamos la consulta
         c.consultar(consulta);
-    }
-    
-    /*
-        Es utilizado en el main para obtener los parametros pasados al ,jar y
-        concatenarlos en un unico String que se va a pasar como consulta
-    */
-    public static String concatenarConsulta(String[] consulta) {
-        String res = "";
-        if (consulta.length > 1) {
-            for (String c : consulta) {
-                res += c;
-            }
-        } 
-        return res;
     }
 }

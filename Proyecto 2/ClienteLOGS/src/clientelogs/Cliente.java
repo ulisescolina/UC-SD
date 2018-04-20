@@ -14,38 +14,45 @@ import lib.comun.LibComun;
  *
  * @author netbeans
  */
-public class Cliente extends Thread{
-    HashMap<String, String[]> hosts = new HashMap<>();
+public class Cliente{
+    // Iterador que contiene los servidores del archivo que lista los servidores
+    Iterator<Map.Entry<String, String[]>> servers;
+    // Coleccion de hilos que consultan concurrentemente con los servidores
+    ArrayList<ManejadorCliente> hilosConsulta = new ArrayList<>();
     
-    public Cliente()
+    public Cliente(Iterator<Map.Entry<String, String[]>> hosts)
     {
-        this.hosts = (new LibComun()).getHosts("hosts.txt");
+        this.servers = hosts;
     }
     
     public void consultar(String buscar) throws InterruptedException
     {
-        try {
-            Socket s = new Socket("localhost", 7001);
-            DataOutputStream dos = new DataOutputStream(s.getOutputStream());
-            dos.writeUTF(buscar);
-            
+        String ip = null;
+        int puerto = 0;
+        // Socket para la conexion con el servidor
+        Socket s = null;
+        // Bucle que envia las peticiones a todos los clientes que se declaran
+        // en el archivo de servidores
+        while (servers.hasNext()) {
+            Map.Entry<String, String[]> elemento = servers.next();
             try {
-                // Creamos el flujo para recibir lo que manda el servidor
-                ObjectInputStream ois = new ObjectInputStream(s.getInputStream());
-                // Creamos la coleccion para recibir los datos del socket 
-                ArrayList<String> resultado = (ArrayList<String>) ois.readObject();
-                Iterator<String> it = resultado.iterator();
-                // recorremos el iterador imprimimos los elementos, que corresponden a una linea 
-                while (it.hasNext()) {
-                    System.out.println(it.next());
-                }
-
-            } catch (ClassNotFoundException ex) {
+                ip = elemento.getValue()[0];
+                puerto = Integer.parseInt(elemento.getValue()[1]);
+                s = new Socket(ip, puerto);
+                ManejadorCliente mc = new ManejadorCliente(s, buscar);
+                mc.start();
+                this.hilosConsulta.add(mc);
+            } catch (java.net.ConnectException e) {
+                System.err.println("No se pudo establecer la conexion con el servidor de log alojado en "+ip+":"+String.valueOf(puerto));
+            } catch (IOException ex) {
                 Logger.getLogger(Cliente.class.getName()).log(Level.SEVERE, null, ex);
             }
-            
-        } catch (IOException ex) {
-            Logger.getLogger(Cliente.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        /*Programar la logica que se encargue de esperar por los hilos*/
+        Iterator<ManejadorCliente> hilos = this.hilosConsulta.iterator();
+        while (hilos.hasNext()) {
+            hilos.next().join();
         }
     }
 }
