@@ -14,8 +14,10 @@ public class ServidorLOGS {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) 
+    {
+        Nodo n = new Nodo(Integer.parseInt(args[0]), args[1]);
+        n.iniciar();
     }
     
 }

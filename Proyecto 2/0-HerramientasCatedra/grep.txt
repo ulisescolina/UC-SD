@@ -1,0 +1,23 @@
+// ejemplo grep 
+// pasando string a buscar como argumento y 
+// teniendo asociado el archivo en el atributo archivo
+// se guarda stdout en salida y luego se imprime el resultado
+// ustedes deben enviar el resultado al cliente
+public void buscar(String buscar) {
+    try {
+        String s;
+        // comando a ejecutar
+        ProcessBuilder pb  = new ProcessBuilder("grep", buscar, this.archivo);
+        // inicia el proceso
+        Process p = pb.start();
+        // obtiene stdout y lo guarda en salida
+        BufferedReader salida = new BufferedReader(new InputStreamReader(p.getInputStream()));
+        
+        // imprime los valores obtenidos
+        while ((s = salida.readLine()) != null) {
+           System.out.println(s);
+        }            
+    } catch (IOException e) {
+        System.out.println("ERROR");
+    }
+}
