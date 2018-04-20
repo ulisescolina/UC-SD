@@ -1,0 +1,1001 @@
+
+525+1: Tue Aug 22 06:58:15 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+525+1: Tue Aug 22 06:58:17 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+525+1: Tue Aug 22 06:58:17 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+525+1: Tue Aug 22 06:58:17 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+525+1: Tue Aug 22 06:58:17 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+525+1: Tue Aug 22 06:58:24 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+529+1: Tue Aug 22 06:58:27 1995 (/SDSC/Geninfo/Internet): Sent cache: 1/SDSC/Geninfo/Internet/
+525+1: Tue Aug 22 06:58:38 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+525+1: Tue Aug 22 06:58:39 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+530+1: Tue Aug 22 06:58:45 1995 (/SC95): Sent cache: GET /SC95 HTTP/1.0
+530+1: Tue Aug 22 06:58:47 1995 (/SC95/Images/yellow_button.gif): Sent binary: GET /I/SC95/Images/yellow_button.gif HTTP/1.0
+530+1: Tue Aug 22 06:58:47 1995 (/SC95/Images/stripe_button.gif): Sent binary: GET /I/SC95/Images/stripe_button.gif HTTP/1.0
+530+1: Tue Aug 22 06:58:47 1995 (/SC95/Images/reddot_button.gif): Sent binary: GET /I/SC95/Images/reddot_button.gif HTTP/1.0
+530+1: Tue Aug 22 06:58:47 1995 (/SC95/Images/logo.gif): Sent binary: GET /I/SC95/Images/logo.gif HTTP/1.0
+530+1: Tue Aug 22 06:58:47 1995 (/SC95/Images/redcheck_button.gif): Sent binary: GET /I/SC95/Images/redcheck_button.gif HTTP/1.0
+529+1: Tue Aug 22 06:58:51 1995 (/SDSC/Geninfo/Internet/geography): Sent cache: 1/SDSC/Geninfo/Internet/geography
+156+1: Tue Aug 22 06:58:54 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+524+2: Tue Aug 22 06:58:58 1995 (/SC95): Sent cache: GET /SC95/ HTTP/1.0
+156+1: Tue Aug 22 06:59:11 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+500+2: Tue Aug 22 06:59:13 1995 (/SC95): Sent cache: GET /SC95 HTTP/1.0
+529+1: Tue Aug 22 06:59:15 1995 (/Web-only): Sent cache: 1/Web-only
+531+1: Tue Aug 22 06:59:20 1995 (): No match for selector: exec:-h sci.engr.mech:/bin/gonntp
+531+1: Tue Aug 22 06:59:20 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/bin/gonntp
+523+1: Tue Aug 22 06:59:20 1995 (/wow/mexico/cancun/dining.html): Sent text: GET /wow/mexico/cancun/dining.html HTTP/1.0
+532+1: Tue Aug 22 06:59:29 1995 (/EnablingTech/Visualization/vrml/webview.html): Sent text: GET /EnablingTech/Visualization/vrml/webview.html HTTP/1.0
+533+1: Tue Aug 22 06:59:39 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+533+1: Tue Aug 22 06:59:39 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Movies
+528+1: Tue Aug 22 06:59:55 1995 (/SDSC/Staff/trostler/simp.html): Sent text: GET /SDSC/Staff/trostler/simp.html HTTP/1.0
+528+1: Tue Aug 22 06:59:57 1995 (/SDSC/Staff/trostler/images/simp.gif): Sent binary: GET /SDSC/Staff/trostler/images/simp.gif text= HTTP/1.0
+446+1: Tue Aug 22 07:00:37 1995 (/SDSC/Partners/vrml/examples.html): Sent text: GET /SDSC/Partners/vrml/examples.html HTTP/1.0
+500+2: Tue Aug 22 07:00:39 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+500+2: Tue Aug 22 07:00:39 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Groups/Intel/ISUGdemo/ISUGHOME.html
+524+2: Tue Aug 22 07:00:39 1995 (/SC95/gen_info.html): Sent text: GET /SC95/gen_info.html HTTP/1.0
+446+1: Tue Aug 22 07:00:39 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+446+1: Tue Aug 22 07:00:39 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+446+1: Tue Aug 22 07:00:39 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+534+1: Tue Aug 22 07:00:42 1995 (/sc95): Sent cache: GET /sc95 HTTP/1.0
+534+1: Tue Aug 22 07:00:43 1995 (/SC95/Images/redcheck_button.gif): Sent binary: GET /I/SC95/Images/redcheck_button.gif HTTP/1.0
+534+1: Tue Aug 22 07:00:43 1995 (/SC95/Images/reddot_button.gif): Sent binary: GET /I/SC95/Images/reddot_button.gif HTTP/1.0
+534+1: Tue Aug 22 07:00:44 1995 (/SC95/Images/yellow_button.gif): Sent binary: GET /I/SC95/Images/yellow_button.gif HTTP/1.0
+534+1: Tue Aug 22 07:00:44 1995 (/SC95/Images/logo.gif): Sent binary: GET /I/SC95/Images/logo.gif HTTP/1.0
+534+1: Tue Aug 22 07:00:45 1995 (/SC95/Images/stripe_button.gif): Sent binary: GET /I/SC95/Images/stripe_button.gif HTTP/1.0
+534+1: Tue Aug 22 07:00:50 1995 (/SC95/news.html): Sent text: GET /SC95/news.html HTTP/1.0
+534+1: Tue Aug 22 07:00:52 1995 (/SC95/Images/triangle_button.gif): Sent binary: GET /I/SC95/Images/triangle_button.gif HTTP/1.0
+156+1: Tue Aug 22 07:01:12 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+156+1: Tue Aug 22 07:01:14 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+156+1: Tue Aug 22 07:01:16 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+156+1: Tue Aug 22 07:01:16 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+156+1: Tue Aug 22 07:01:19 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+156+1: Tue Aug 22 07:01:19 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+156+1: Tue Aug 22 07:01:24 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+535+1: Tue Aug 22 07:01:26 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+156+1: Tue Aug 22 07:01:27 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+156+1: Tue Aug 22 07:01:29 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+156+1: Tue Aug 22 07:01:38 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+156+1: Tue Aug 22 07:01:40 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+156+1: Tue Aug 22 07:01:40 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+535+1: Tue Aug 22 07:01:43 1995 (/SDSC/Partners/vrml/bib.html): Sent text: GET /SDSC/Partners/vrml/bib.html HTTP/1.0
+534+1: Tue Aug 22 07:01:47 1995 (/SC95/exhibit.html): Sent text: GET /SC95/exhibit.html HTTP/1.0
+524+2: Tue Aug 22 07:01:52 1995 (/SC95/technical.html): Sent text: GET /SC95/technical.html HTTP/1.0
+536+1: Tue Aug 22 07:01:57 1995 (/EnablingTech/Visualization/vrml/webview.html): Sent text: GET /EnablingTech/Visualization/vrml/webview.html HTTP/1.0
+536+1: Tue Aug 22 07:02:00 1995 (/EnablingTech/Visualization/vrml/tools/webview/help/webview.gif): Sent binary: GET /EnablingTech/Visualization/vrml/tools/webview/help/webview.gif HTTP/1.0
+156+1: Tue Aug 22 07:02:01 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+537+1: Tue Aug 22 07:02:09 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+537+1: Tue Aug 22 07:02:16 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+537+1: Tue Aug 22 07:02:18 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+132+3: Tue Aug 22 07:02:19 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+132+3: Tue Aug 22 07:02:22 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+132+3: Tue Aug 22 07:02:22 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+132+3: Tue Aug 22 07:02:22 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+132+3: Tue Aug 22 07:02:24 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+26+1: Tue Aug 22 07:02:32 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+523+1: Tue Aug 22 07:02:33 1995 (/wow/mexico/cancun/canfirs.html): Sent text: GET /wow/mexico/cancun/canfirs.html HTTP/1.0
+26+1: Tue Aug 22 07:02:35 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+26+1: Tue Aug 22 07:02:35 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+534+1: Tue Aug 22 07:02:35 1995 (/SC95/ep.html): Sent text: GET /SC95/ep.html HTTP/1.0
+537+1: Tue Aug 22 07:02:36 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+523+1: Tue Aug 22 07:02:38 1995 (/wow/wow-mbos.gif): Sent binary: GET /wow/wow-mbos.gif HTTP/1.0
+523+1: Tue Aug 22 07:02:38 1995 (/wow/mexico/cancun/trxrt.gif): Sent binary: GET /wow/mexico/cancun/trxrt.gif HTTP/1.0
+534+1: Tue Aug 22 07:02:38 1995 (/SC95/Images/sc95_exhibit_small.gif): Sent binary: GET /SC95/Images/sc95_exhibit_small.gif HTTP/1.0
+523+1: Tue Aug 22 07:02:38 1995 (/wow/mexico/cancun/cancun.jpg): Sent binary: GET /wow/mexico/cancun/cancun.jpg HTTP/1.0
+534+1: Tue Aug 22 07:02:38 1995 (/SC95/Images/stripe_tiny.gif): Sent binary: GET /SC95/Images/stripe_tiny.gif HTTP/1.0
+534+1: Tue Aug 22 07:02:38 1995 (/SC95/Images/triangle_tiny.gif): Sent binary: GET /SC95/Images/triangle_tiny.gif HTTP/1.0
+26+1: Tue Aug 22 07:02:38 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+534+1: Tue Aug 22 07:02:39 1995 (/SC95/Images/reddot_tiny.gif): Sent binary: GET /SC95/Images/reddot_tiny.gif HTTP/1.0
+26+1: Tue Aug 22 07:02:43 1995 (/SDSC/Partners/vrml/examples.html): Sent text: GET /SDSC/Partners/vrml/examples.html HTTP/1.0
+538+1: Tue Aug 22 07:02:44 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+538+1: Tue Aug 22 07:02:44 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Movies
+26+1: Tue Aug 22 07:02:46 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+524+2: Tue Aug 22 07:02:46 1995 (/SC95/call.html): Sent text: GET /SC95/call.html HTTP/1.0
+132+3: Tue Aug 22 07:02:47 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+537+1: Tue Aug 22 07:02:48 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+523+1: Tue Aug 22 07:02:49 1995 (/wow/mexico/cancun/cancan.html): Sent text: GET /wow/mexico/cancun/cancan.html HTTP/1.0
+523+1: Tue Aug 22 07:02:49 1995 (/wow/mexico/cancun/cancun.jpg): Sent binary: GET /wow/mexico/cancun/cancun.jpg HTTP/1.0
+534+1: Tue Aug 22 07:02:58 1995 (/SC95/exhibitors.html): Sent text: GET /SC95/exhibitors.html HTTP/1.0
+379+1: Tue Aug 22 07:03:11 1995 (/SDSC/Geninfo/Internet/search.html): Sent text: GET /1/SDSC/Geninfo/Internet/search.html HTTP/1.0
+534+1: Tue Aug 22 07:03:13 1995 (/SC95/summary.html): Sent text: GET /SC95/summary.html HTTP/1.0
+132+3: Tue Aug 22 07:03:14 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+132+3: Tue Aug 22 07:03:16 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+197+7: Tue Aug 22 07:03:20 1995 (/images/biglogo.gif): Sent binary: GET /images/biglogo.gif HTTP/1.0
+474+1: Tue Aug 22 07:03:29 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+534+1: Tue Aug 22 07:03:33 1995 (/SC95/who.html): Sent text: GET /SC95/who.html HTTP/1.0
+474+1: Tue Aug 22 07:03:40 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+474+1: Tue Aug 22 07:03:41 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+474+1: Tue Aug 22 07:03:41 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+474+1: Tue Aug 22 07:03:44 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+534+1: Tue Aug 22 07:03:47 1995 (/SC95/reasons.html): Sent text: GET /SC95/reasons.html HTTP/1.0
+496+1: Tue Aug 22 07:04:01 1995 (/SDSC/Partners/vrml/software/util.html): Sent binary: GET /SDSC/Partners/vrml/software/util.html HTTP/1.0
+474+1: Tue Aug 22 07:04:11 1995 (/SDSC/Partners/vrml/examples.html): Sent text: GET /SDSC/Partners/vrml/examples.html HTTP/1.0
+366+2: Tue Aug 22 07:04:11 1995 (/cug.html): Sent text: GET /cug.html HTTP/1.0
+474+1: Tue Aug 22 07:04:13 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+524+2: Tue Aug 22 07:04:16 1995 (/SC95/exhibit.html): Sent text: GET /SC95/exhibit.html HTTP/1.0
+366+2: Tue Aug 22 07:04:19 1995 (/CUG/Images/cuglogo.gif): Sent binary: GET /CUG/Images/cuglogo.gif HTTP/1.0
+524+2: Tue Aug 22 07:04:28 1995 (/SC95/ep.html): Sent text: GET /SC95/ep.html HTTP/1.0
+539+1: Tue Aug 22 07:04:33 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+539+1: Tue Aug 22 07:04:33 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Stills/smog.gif
+540+1: Tue Aug 22 07:04:45 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+540+1: Tue Aug 22 07:04:45 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Movies
+541+1: Tue Aug 22 07:04:49 1995 (/surfrider.html): Sent text: GET /surfrider.html HTTP/1.0
+541+1: Tue Aug 22 07:04:52 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+541+1: Tue Aug 22 07:04:52 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+541+1: Tue Aug 22 07:04:52 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+541+1: Tue Aug 22 07:04:52 1995 (/SDSC/Partners/Surfrider/hdsurf.gif): Sent binary: GET /SDSC/Partners/Surfrider/hdsurf.gif HTTP/1.0
+542+1: Tue Aug 22 07:05:03 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+542+1: Tue Aug 22 07:05:03 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/enablingtech/visualization/vrml/webview.html
+524+2: Tue Aug 22 07:05:06 1995 (/SC95/exhibitors.html): Sent text: GET /SC95/exhibitors.html HTTP/1.0
+543+1: Tue Aug 22 07:05:07 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+543+1: Tue Aug 22 07:05:07 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Movies
+424+1: Tue Aug 22 07:05:13 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+542+1: Tue Aug 22 07:05:15 1995 (): No match for selector: GET /enablingtech/ HTTP/1.0
+542+1: Tue Aug 22 07:05:15 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+542+1: Tue Aug 22 07:05:15 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/enablingtech
+424+1: Tue Aug 22 07:05:15 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+424+1: Tue Aug 22 07:05:15 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+424+1: Tue Aug 22 07:05:20 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+424+1: Tue Aug 22 07:05:21 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+542+1: Tue Aug 22 07:05:23 1995 (/): Sent cache: GET / HTTP/1.0
+542+1: Tue Aug 22 07:05:24 1995 (/images/biglogo.gif): Sent binary: GET /images/biglogo.gif HTTP/1.0
+542+1: Tue Aug 22 07:05:25 1995 (/images/iotw.gif): Sent binary: GET /images/iotw.gif HTTP/1.0
+542+1: Tue Aug 22 07:05:25 1995 (/images/redbar.gif): Sent binary: GET /images/redbar.gif HTTP/1.0
+534+1: Tue Aug 22 07:05:26 1995 (/SC95): Sent cache: GET /SC95 HTTP/1.0
+542+1: Tue Aug 22 07:05:28 1995 (/images/blackbar.gif): Sent binary: GET /images/blackbar.gif HTTP/1.0
+544+1: Tue Aug 22 07:05:32 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+544+1: Tue Aug 22 07:05:32 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Movies
+541+1: Tue Aug 22 07:05:33 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+541+1: Tue Aug 22 07:05:33 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+541+1: Tue Aug 22 07:05:33 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+541+1: Tue Aug 22 07:05:33 1995 (/SDSC/Partners/Surfrider/hdsurf.gif): Sent binary: GET /SDSC/Partners/Surfrider/hdsurf.gif HTTP/1.0
+541+1: Tue Aug 22 07:05:33 1995 (/SDSC/Partners/Surfrider/air1.gif): Sent binary: GET /SDSC/Partners/Surfrider/air1.gif HTTP/1.0
+524+2: Tue Aug 22 07:05:50 1995 (/SC95/summary.html): Sent text: GET /SC95/summary.html HTTP/1.0
+542+1: Tue Aug 22 07:05:53 1995 (/cgi-bin/imagemap.cgi): Sent CGI redirection: GET /CGI/cgi-bin/imagemap.cgi/blackbar?202,20 HTTP/1.0
+542+1: Tue Aug 22 07:05:55 1995 (/ghindex.html): Sent text: GET /ghindex.html HTTP/1.0
+542+1: Tue Aug 22 07:05:56 1995 (/images/search.gif): Sent binary: GET /images/search.gif HTTP/1.0
+542+1: Tue Aug 22 07:05:56 1995 (/images/logo.gif): Sent binary: GET /images/logo.gif HTTP/1.0
+144+1: Tue Aug 22 07:05:58 1995 (/): Sent cache:
+535+1: Tue Aug 22 07:06:00 1995 (/SDSC/Partners/vrml/doc.html): Sent text: GET /SDSC/Partners/vrml/doc.html HTTP/1.0
+500+2: Tue Aug 22 07:06:09 1995 (/SC95): Sent cache: GET /SC95 HTTP/1.0
+542+1: Tue Aug 22 07:06:13 1995 (/cgi-bin/imagemap.cgi): Sent CGI redirection: GET /CGI/cgi-bin/imagemap.cgi/redbar?124,16 HTTP/1.0
+542+1: Tue Aug 22 07:06:14 1995 (/services.html): Sent text: GET /services.html HTTP/1.0
+542+1: Tue Aug 22 07:06:16 1995 (/images/services.gif): Sent binary: GET /images/services.gif HTTP/1.0
+535+1: Tue Aug 22 07:06:20 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+510+1: Tue Aug 22 07:06:23 1995 (/surf/surfmail.html): Sent text: GET /surf/surfmail.html HTTP/1.0
+510+2: Tue Aug 22 07:06:25 1995 (/surf/copyright.xbm): Sent binary: GET /surf/copyright.xbm HTTP/1.0
+542+1: Tue Aug 22 07:06:26 1995 (/Services/Vislab/Vislab.html): Sent text: GET /Services/Vislab/Vislab.html HTTP/1.0
+535+1: Tue Aug 22 07:06:27 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+524+2: Tue Aug 22 07:06:29 1995 (/SC95/infrastructure.html): Sent text: GET /SC95/infrastructure.html HTTP/1.0
+545+1: Tue Aug 22 07:06:38 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+510+1: Tue Aug 22 07:06:40 1995 (/surf/Images/la_swell.gif): Sent binary: GET /surf/Images/la_swell.gif HTTP/1.0
+524+2: Tue Aug 22 07:06:40 1995 (/SC95/scinet/scinet_info.html): Sent text: GET /SC95/scinet/scinet_info.html HTTP/1.0
+542+1: Tue Aug 22 07:06:43 1995 (/Services/Vislab/labintro.html): Sent text: GET /Services/Vislab/labintro.html HTTP/1.0
+545+1: Tue Aug 22 07:06:43 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+546+1: Tue Aug 22 07:06:45 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+546+1: Tue Aug 22 07:06:45 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Movies
+547+1: Tue Aug 22 07:06:48 1995 (/Parts_Collabs/S2K/s2k_home.html): Sent text: GET /0/Parts_Collabs/S2K/s2k_home.html HTTP/1.0
+547+1: Tue Aug 22 07:06:49 1995 (/Parts_Collabs/S2K/Images/s2k_logo.gif): Sent binary: GET /I/Parts_Collabs/S2K/Images/s2k_logo.gif HTTP/1.0
+545+1: Tue Aug 22 07:06:56 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+545+1: Tue Aug 22 07:07:00 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+545+1: Tue Aug 22 07:07:04 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+510+2: Tue Aug 22 07:07:15 1995 (/surf/Images/orange_hs.gif): Sent binary: GET /surf/Images/orange_hs.gif HTTP/1.0
+539+1: Tue Aug 22 07:07:17 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+539+1: Tue Aug 22 07:07:17 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Stills/smog.gif
+545+1: Tue Aug 22 07:07:41 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+510+1: Tue Aug 22 07:07:44 1995 (/surf/wave_report): Sent text: GET /surf/wave_report HTTP/1.0
+371+1: Tue Aug 22 07:07:52 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+227+3: Tue Aug 22 07:07:54 1995 (/SDSC/Staff/frost/frost.html): Sent text: GET /SDSC/Staff/frost/frost.html HTTP/1.0
+227+3: Tue Aug 22 07:07:58 1995 (/SDSC/Staff/frost/frost.gif): Sent binary: GET /SDSC/Staff/frost/frost.gif HTTP/1.0
+227+3: Tue Aug 22 07:07:58 1995 (/SDSC/Staff/frost/workstation.icon.gif): Sent binary: GET /SDSC/Staff/frost/workstation.icon.gif HTTP/1.0
+227+3: Tue Aug 22 07:07:58 1995 (/SDSC/Staff/frost/sdsu_logo_3.gif): Sent binary: GET /SDSC/Staff/frost/sdsu_logo_3.gif HTTP/1.0
+227+3: Tue Aug 22 07:07:58 1995 (/SDSC/Staff/frost/sdsc_logo.gif): Sent binary: GET /SDSC/Staff/frost/sdsc_logo.gif HTTP/1.0
+227+3: Tue Aug 22 07:07:58 1995 (/SDSC/Staff/frost/web.icon.gif): Sent binary: GET /SDSC/Staff/frost/web.icon.gif HTTP/1.0
+227+3: Tue Aug 22 07:07:59 1995 (/SDSC/Staff/frost/stimpy.icon.gif): Sent binary: GET /SDSC/Staff/frost/stimpy.icon.gif HTTP/1.0
+7+2: Tue Aug 22 07:08:00 1995 (/): Sent cache:
+545+1: Tue Aug 22 07:08:06 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+542+1: Tue Aug 22 07:08:07 1995 (/Services/Vislab/AV.html): Sent text: GET /Services/Vislab/AV.html HTTP/1.0
+46+2: Tue Aug 22 07:08:16 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+545+1: Tue Aug 22 07:08:18 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+46+2: Tue Aug 22 07:08:18 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+46+2: Tue Aug 22 07:08:19 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+46+2: Tue Aug 22 07:08:19 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+548+1: Tue Aug 22 07:08:21 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+548+1: Tue Aug 22 07:08:21 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Movies
+524+2: Tue Aug 22 07:09:04 1995 (/SC95): Sent cache: GET /SC95/ HTTP/1.0
+132+3: Tue Aug 22 07:09:11 1995 (/EnablingTech/Visualization/vrml/webview.html): Sent text: GET /EnablingTech/Visualization/vrml/webview.html HTTP/1.0
+132+3: Tue Aug 22 07:09:16 1995 (/EnablingTech/Visualization/vrml/tools/webview/help/webview.gif): Sent binary: GET /EnablingTech/Visualization/vrml/tools/webview/help/webview.gif HTTP/1.0
+542+1: Tue Aug 22 07:09:30 1995 (): No match for selector: GET /products.html HTTP/1.0
+542+1: Tue Aug 22 07:09:30 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+542+1: Tue Aug 22 07:09:30 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/products.html
+542+1: Tue Aug 22 07:09:46 1995 (/cgi-bin/imagemap.cgi): Sent CGI redirection: GET /CGI/cgi-bin/imagemap.cgi/redbar?45,21 HTTP/1.0
+542+1: Tue Aug 22 07:09:47 1995 (/research.html): Sent text: GET /research.html HTTP/1.0
+549+1: Tue Aug 22 07:09:50 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+549+1: Tue Aug 22 07:09:50 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Stills/smog.gif
+542+1: Tue Aug 22 07:09:54 1995 (/images/research.gif): Sent binary: GET /images/research.gif HTTP/1.0
+542+1: Tue Aug 22 07:10:07 1995 (/EnablingTech/visualization.html): Sent text: GET /EnablingTech/visualization.html HTTP/1.0
+543+1: Tue Aug 22 07:10:20 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+543+1: Tue Aug 22 07:10:20 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Movies
+550+1: Tue Aug 22 07:10:31 1995 (/images/biglogo.gif): Sent binary: GET /images/biglogo.gif HTTP/1.0
+542+1: Tue Aug 22 07:10:38 1995 (/SDSC/Research/Visualization/Tecate/tecate.html): Sent text: GET /SDSC/Research/Visualization/Tecate/tecate.html HTTP/1.0
+542+1: Tue Aug 22 07:10:39 1995 (/SDSC/Research/Visualization/Tecate/images/logo.gif): Sent binary: GET /SDSC/Research/Visualization/Tecate/images/logo.gif HTTP/1.0
+542+1: Tue Aug 22 07:10:39 1995 (/images/icon_research.gif): Sent binary: GET /images/icon_research.gif HTTP/1.0
+542+1: Tue Aug 22 07:10:57 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+542+1: Tue Aug 22 07:10:58 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+542+1: Tue Aug 22 07:10:58 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+542+1: Tue Aug 22 07:10:59 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+542+1: Tue Aug 22 07:10:59 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+132+2: Tue Aug 22 07:11:07 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+551+1: Tue Aug 22 07:11:14 1995 (/wow/mexico/cancun/canfirs.html): Sent text: GET /wow/mexico/cancun/canfirs.html HTTP/1.0
+542+1: Tue Aug 22 07:11:16 1995 (/SDSC/Partners/vrml/about.html): Sent text: GET /SDSC/Partners/vrml/about.html HTTP/1.0
+551+1: Tue Aug 22 07:11:17 1995 (/wow/wow-mbos.gif): Sent binary: GET /wow/wow-mbos.gif HTTP/1.0
+551+1: Tue Aug 22 07:11:18 1995 (/wow/mexico/cancun/trxrt.gif): Sent binary: GET /wow/mexico/cancun/trxrt.gif HTTP/1.0
+551+1: Tue Aug 22 07:11:18 1995 (/wow/mexico/cancun/cancun.jpg): Sent binary: GET /wow/mexico/cancun/cancun.jpg HTTP/1.0
+542+1: Tue Aug 22 07:11:19 1995 (/SDSC/Partners/vrml/Images/red_dot.gif): Sent binary: GET /SDSC/Partners/vrml/Images/red_dot.gif HTTP/1.0
+542+1: Tue Aug 22 07:11:19 1995 (/SDSC/Partners/vrml/Images/yellow_dot.gif): Sent binary: GET /SDSC/Partners/vrml/Images/yellow_dot.gif HTTP/1.0
+542+1: Tue Aug 22 07:11:19 1995 (/SDSC/Partners/vrml/Images/magenta_dot.gif): Sent binary: GET /SDSC/Partners/vrml/Images/magenta_dot.gif HTTP/1.0
+552+1: Tue Aug 22 07:11:34 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+132+2: Tue Aug 22 07:11:35 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+553+1: Tue Aug 22 07:11:36 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+553+1: Tue Aug 22 07:11:39 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+553+1: Tue Aug 22 07:11:40 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+551+1: Tue Aug 22 07:11:44 1995 (/wow/mexico/cancun/cancan.html): Sent text: GET /wow/mexico/cancun/cancan.html HTTP/1.0
+551+1: Tue Aug 22 07:11:52 1995 (/wow/wow-mbos.gif): Sent binary: GET /wow/wow-mbos.gif HTTP/1.0
+552+1: Tue Aug 22 07:11:52 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+553+1: Tue Aug 22 07:11:54 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+552+1: Tue Aug 22 07:11:55 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+554+1: Tue Aug 22 07:11:55 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+552+1: Tue Aug 22 07:11:55 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+554+1: Tue Aug 22 07:11:59 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+554+1: Tue Aug 22 07:12:00 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+554+1: Tue Aug 22 07:12:00 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+554+1: Tue Aug 22 07:12:00 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+132+2: Tue Aug 22 07:12:01 1995 (/SDSC/Partners/vrml/software/develop_lib-vrml.html): Sent binary: GET /SDSC/Partners/vrml/software/develop_lib-vrml.html HTTP/1.0
+553+1: Tue Aug 22 07:12:03 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+542+1: Tue Aug 22 07:12:03 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+552+1: Tue Aug 22 07:12:07 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+542+1: Tue Aug 22 07:12:09 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+542+1: Tue Aug 22 07:12:10 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+261+3: Tue Aug 22 07:12:19 1995 (/surfrider.html): Sent text: GET /surfrider.html HTTP/1.0
+554+1: Tue Aug 22 07:12:21 1995 (/SDSC/Partners/vrml/examples.html): Sent text: GET /SDSC/Partners/vrml/examples.html HTTP/1.0
+261+3: Tue Aug 22 07:12:23 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:12:23 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+555+1: Tue Aug 22 07:12:23 1995 (/Parts_Collabs/S2K/s2k_home.html): Sent text: GET /0/Parts_Collabs/S2K/s2k_home.html HTTP/1.0
+26+1: Tue Aug 22 07:12:24 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+26+1: Tue Aug 22 07:12:24 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+26+1: Tue Aug 22 07:12:24 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+26+1: Tue Aug 22 07:12:24 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+555+1: Tue Aug 22 07:12:25 1995 (/Parts_Collabs/S2K/Images/s2k_logo.gif): Sent binary: GET /I/Parts_Collabs/S2K/Images/s2k_logo.gif HTTP/1.0
+554+1: Tue Aug 22 07:12:26 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+261+3: Tue Aug 22 07:12:26 1995 (/SDSC/Partners/Surfrider/air1.gif): Sent binary: GET /SDSC/Partners/Surfrider/air1.gif HTTP/1.0
+132+2: Tue Aug 22 07:12:28 1995 (/SDSC/Partners/vrml/software/geom_trans.html): Sent binary: GET /SDSC/Partners/vrml/software/geom_trans.html HTTP/1.0
+261+3: Tue Aug 22 07:12:30 1995 (/SDSC/Partners/Surfrider/hdsurf.gif): Sent binary: GET /SDSC/Partners/Surfrider/hdsurf.gif HTTP/1.0
+26+1: Tue Aug 22 07:12:30 1995 (/SDSC/Partners/vrml/examples.html): Sent text: GET /SDSC/Partners/vrml/examples.html HTTP/1.0
+26+1: Tue Aug 22 07:12:33 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+554+1: Tue Aug 22 07:12:39 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+554+1: Tue Aug 22 07:12:44 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+261+3: Tue Aug 22 07:12:52 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/somppl16.mov HTTP/1.0
+261+3: Tue Aug 22 07:12:52 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:12:52 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/somppl16.mov
+500+2: Tue Aug 22 07:12:53 1995 (/sc95): Sent cache: GET /sc95 HTTP/1.0
+554+1: Tue Aug 22 07:12:54 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+261+3: Tue Aug 22 07:12:58 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+261+3: Tue Aug 22 07:12:58 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:12:58 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+261+3: Tue Aug 22 07:13:01 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/somppl16.mov HTTP/1.0
+261+3: Tue Aug 22 07:13:01 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:13:01 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/somppl16.mov
+261+3: Tue Aug 22 07:13:06 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+261+3: Tue Aug 22 07:13:06 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:13:06 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+551+1: Tue Aug 22 07:13:12 1995 (/wow/mexico/cancun/cancan.jpg): Sent binary: GET /wow/mexico/cancun/cancan.jpg HTTP/1.0
+539+1: Tue Aug 22 07:13:18 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Stills/smog.gif
+242+1: Tue Aug 22 07:13:18 1995 (/wow/situr/cpl-main.html): Sent text: GET /wow/situr/cpl-main.html HTTP/1.0
+242+2: Tue Aug 22 07:13:18 1995 (/wow/situr/cpl-main.html): Sent text: GET /wow/situr/cpl-main.html HTTP/1.0
+205+3: Tue Aug 22 07:13:18 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+242+1: Tue Aug 22 07:13:20 1995 (/wow/situr/cpl-main.html): Sent text: GET /wow/situr/cpl-main.html HTTP/1.0
+205+3: Tue Aug 22 07:13:33 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+205+3: Tue Aug 22 07:13:33 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+205+3: Tue Aug 22 07:13:34 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+205+3: Tue Aug 22 07:13:34 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+556+1: Tue Aug 22 07:13:36 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+492+1: Tue Aug 22 07:13:41 1995 (/Parts_Collabs/S2K/s2k_home.html): Sent text: GET /0/Parts_Collabs/S2K/s2k_home.html HTTP/1.0
+261+3: Tue Aug 22 07:13:43 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/somppl24.mov HTTP/1.0
+261+3: Tue Aug 22 07:13:43 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:13:43 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/somppl24.mov
+492+1: Tue Aug 22 07:13:46 1995 (/Parts_Collabs/S2K/Images/s2k_logo.gif): Sent binary: GET /I/Parts_Collabs/S2K/Images/s2k_logo.gif HTTP/1.0
+242+2: Tue Aug 22 07:13:57 1995 (/wow/situr/cplaza-2.jpg): Sent binary: GET /wow/situr/cplaza-2.jpg HTTP/1.0
+552+1: Tue Aug 22 07:13:59 1995 (/SDSC/Partners/vrml/examples.html): Sent text: GET /SDSC/Partners/vrml/examples.html HTTP/1.0
+261+3: Tue Aug 22 07:14:00 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/somppl24.mov HTTP/1.0
+261+3: Tue Aug 22 07:14:00 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:14:00 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/somppl24.mov
+552+1: Tue Aug 22 07:14:05 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+261+3: Tue Aug 22 07:14:06 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+261+3: Tue Aug 22 07:14:06 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:14:06 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+557+1: Tue Aug 22 07:14:09 1995 (/surfrider.html): Sent text: GET /surfrider.html HTTP/1.0
+557+1: Tue Aug 22 07:14:11 1995 (/SDSC/Partners/Surfrider/hdsurf.gif): Sent binary: GET /SDSC/Partners/Surfrider/hdsurf.gif HTTP/1.0
+557+1: Tue Aug 22 07:14:11 1995 (/SDSC/Partners/Surfrider/air1.gif): Sent binary: GET /SDSC/Partners/Surfrider/air1.gif HTTP/1.0
+557+1: Tue Aug 22 07:14:11 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+557+1: Tue Aug 22 07:14:11 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+557+1: Tue Aug 22 07:14:11 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+261+3: Tue Aug 22 07:14:13 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+261+3: Tue Aug 22 07:14:13 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:14:13 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+558+1: Tue Aug 22 07:14:19 1995 (/SDSC/Geninfo/Internet/books): Sent cache: GET /1/SDSC/Geninfo/Internet/books HTTP/1.0
+549+1: Tue Aug 22 07:14:22 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+549+1: Tue Aug 22 07:14:22 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Stills/smog.gif
+557+1: Tue Aug 22 07:14:25 1995 (/SDSC/Partners/Surfrider/weekly/current.htm): Sent text: GET /SDSC/Partners/Surfrider/weekly/current.htm HTTP/1.0
+261+3: Tue Aug 22 07:14:29 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/somppl16.mov HTTP/1.0
+261+3: Tue Aug 22 07:14:29 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:14:29 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/somppl16.mov
+231+3: Tue Aug 22 07:14:39 1995 (/SDSC/Geninfo/Internet): Sent cache: 1/SDSC/Geninfo/Internet/
+132+3: Tue Aug 22 07:14:42 1995 (/EnablingTech/Visualization/vrml/tools/webview/help/webview_building_v1.0b1.html): Sent text: GET /EnablingTech/Visualization/vrml/tools/webview/help/webview_building_v1.0b1.html HTTP/1.0
+557+1: Tue Aug 22 07:14:53 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+557+1: Tue Aug 22 07:14:53 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+557+1: Tue Aug 22 07:14:53 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+500+2: Tue Aug 22 07:14:56 1995 (/Home.html): Sent text: GET /Home.html HTTP/1.0
+475+2: Tue Aug 22 07:15:05 1995 (/SDSC/Partners/vrml/examples.html): Sent text: GET /SDSC/Partners/vrml/examples.html HTTP/1.0
+475+2: Tue Aug 22 07:15:06 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+475+2: Tue Aug 22 07:15:06 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+475+2: Tue Aug 22 07:15:06 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+559+1: Tue Aug 22 07:15:08 1995 (/SDSC/Research/Visualization/Tecate/images/logo.gif): Sent binary: GET /0/SDSC/Research/Visualization/Tecate/images/logo.gif HTTP/1.0
+557+1: Tue Aug 22 07:15:08 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/notes.htm HTTP/1.0
+557+1: Tue Aug 22 07:15:08 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+557+1: Tue Aug 22 07:15:08 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/notes.htm
+559+1: Tue Aug 22 07:15:08 1995 (/images/logo_square.gif): Sent binary: GET /images/logo_square.gif HTTP/1.0
+559+1: Tue Aug 22 07:15:08 1995 (/images/icon_research.gif): Sent binary: GET /images/icon_research.gif HTTP/1.0
+557+1: Tue Aug 22 07:15:12 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+557+1: Tue Aug 22 07:15:12 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+557+1: Tue Aug 22 07:15:12 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+557+1: Tue Aug 22 07:15:15 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/quicktim.htm HTTP/1.0
+557+1: Tue Aug 22 07:15:15 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+557+1: Tue Aug 22 07:15:15 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/quicktim.htm
+560+1: Tue Aug 22 07:15:17 1995 (/wow/situr/rad-main.html): Sent text: GET /wow/situr/rad-main.html HTTP/1.0
+557+1: Tue Aug 22 07:15:19 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+557+1: Tue Aug 22 07:15:19 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+557+1: Tue Aug 22 07:15:19 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+560+1: Tue Aug 22 07:15:27 1995 (/wow/situr/rdsn-x.jpg): Sent binary: GET /wow/situr/rdsn-x.jpg HTTP/1.0
+496+1: Tue Aug 22 07:15:31 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+496+1: Tue Aug 22 07:15:31 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+496+1: Tue Aug 22 07:15:31 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+559+1: Tue Aug 22 07:15:33 1995 (/SDSC/Research/Visualization/Tecate/images.html): Sent text: GET /0/SDSC/Research/Visualization/Tecate/images.html HTTP/1.0
+559+1: Tue Aug 22 07:15:35 1995 (/SDSC/Research/Visualization/Tecate/images/logo_small.gif): Sent binary: GET /0/SDSC/Research/Visualization/Tecate/images/logo_small.gif HTTP/1.0
+559+1: Tue Aug 22 07:15:35 1995 (/SDSC/Research/Visualization/Tecate/images/dtj/fig5_small.gif): Sent binary: GET /0/SDSC/Research/Visualization/Tecate/images/dtj/fig5_small.gif HTTP/1.0
+551+1: Tue Aug 22 07:15:36 1995 (/wow/mexico/cancun/canhome.html): Sent text: GET /wow/mexico/cancun/canhome.html HTTP/1.0
+559+1: Tue Aug 22 07:15:36 1995 (/SDSC/Research/Visualization/Tecate/images/dtj/fig7_small.gif): Sent binary: GET /0/SDSC/Research/Visualization/Tecate/images/dtj/fig7_small.gif HTTP/1.0
+559+1: Tue Aug 22 07:15:38 1995 (/SDSC/Research/Visualization/Tecate/images/dtj/fig6_small.gif): Sent binary: GET /0/SDSC/Research/Visualization/Tecate/images/dtj/fig6_small.gif HTTP/1.0
+561+1: Tue Aug 22 07:15:38 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+561+1: Tue Aug 22 07:15:40 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+561+1: Tue Aug 22 07:15:40 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+551+1: Tue Aug 22 07:15:44 1995 (/wow/mexico/cancun/acan2.jpg): Sent binary: GET /wow/mexico/cancun/acan2.jpg HTTP/1.0
+560+1: Tue Aug 22 07:15:47 1995 (/wow/situr/rdsn-nv.jpg): Sent binary: GET /wow/situr/rdsn-nv.jpg HTTP/1.0
+551+1: Tue Aug 22 07:15:47 1995 (/wow/mexico/cancun/pyr.gif): Sent binary: GET /wow/mexico/cancun/pyr.gif HTTP/1.0
+459+1: Tue Aug 22 07:15:49 1995 (/EnablingTech/Visualization/vrml/tools/fract/index.html): Sent text: GET /EnablingTech/Visualization/vrml/tools/fract/index.html HTTP/1.0
+459+1: Tue Aug 22 07:15:51 1995 (/EnablingTech/Visualization/vrml/tools/fract/julia_icon.jpg): Sent binary: GET /EnablingTech/Visualization/vrml/tools/fract/julia_icon.jpg HTTP/1.0
+496+1: Tue Aug 22 07:15:55 1995 (/SDSC/Partners/vrml/software/modelers.html): Sent binary: GET /SDSC/Partners/vrml/software/modelers.html HTTP/1.0
+475+3: Tue Aug 22 07:15:59 1995 (/surfrider): Sent text: GET /surfrider HTTP/1.0
+539+1: Tue Aug 22 07:16:01 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+539+1: Tue Aug 22 07:16:01 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Stills/smog.gif
+475+3: Tue Aug 22 07:16:03 1995 (/SDSC/Partners/Surfrider/hdsurf.gif): Sent binary: GET /SDSC/Partners/Surfrider/hdsurf.gif HTTP/1.0
+475+3: Tue Aug 22 07:16:03 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+475+3: Tue Aug 22 07:16:03 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+475+3: Tue Aug 22 07:16:03 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+475+3: Tue Aug 22 07:16:03 1995 (/SDSC/Partners/Surfrider/air1.gif): Sent binary: GET /SDSC/Partners/Surfrider/air1.gif HTTP/1.0
+561+1: Tue Aug 22 07:16:04 1995 (/SDSC/Partners/vrml/software/modelers.html): Sent binary: GET /SDSC/Partners/vrml/software/modelers.html HTTP/1.0
+193+2: Tue Aug 22 07:16:08 1995 (/wow/situr/rad-main.html): Sent text: GET /wow/situr/rad-main.html HTTP/1.0
+193+1: Tue Aug 22 07:16:11 1995 (/wow/situr/rdsn-nv.jpg): Sent binary: GET /wow/situr/rdsn-nv.jpg HTTP/1.0
+193+2: Tue Aug 22 07:16:13 1995 (/wow/situr/rdsn-x.jpg): Sent binary: GET /wow/situr/rdsn-x.jpg HTTP/1.0
+197+8: Tue Aug 22 07:16:25 1995 (/Events/vrml95): Sent cache: GET /Events/vrml95/ HTTP/1.0
+205+3: Tue Aug 22 07:16:26 1995 (/SDSC/Partners/vrml/software/develop_lib-vrml.html): Sent binary: GET /SDSC/Partners/vrml/software/develop_lib-vrml.html HTTP/1.0
+197+8: Tue Aug 22 07:16:37 1995 (/Events/vrml95/red_dot.gif): Sent binary: GET /Events/vrml95/red_dot.gif HTTP/1.0
+464+3: Tue Aug 22 07:16:40 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+464+3: Tue Aug 22 07:16:42 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+464+3: Tue Aug 22 07:16:42 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+464+3: Tue Aug 22 07:16:47 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+464+3: Tue Aug 22 07:16:48 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+95+2: Tue Aug 22 07:17:01 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+95+2: Tue Aug 22 07:17:03 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+95+2: Tue Aug 22 07:17:03 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+95+2: Tue Aug 22 07:17:03 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+95+2: Tue Aug 22 07:17:03 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+562+1: Tue Aug 22 07:17:11 1995 (/EnablingTech/Visualization/vrml/webview.html): Sent text: GET /EnablingTech/Visualization/vrml/webview.html HTTP/1.0
+132+2: Tue Aug 22 07:17:13 1995 (): No match for selector: GET /SDSC/Partners/vrml/software/ HTTP/1.0
+132+2: Tue Aug 22 07:17:13 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+132+2: Tue Aug 22 07:17:13 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/vrml/software
+562+1: Tue Aug 22 07:17:13 1995 (/EnablingTech/Visualization/vrml/tools/webview/help/webview.gif): Sent binary: GET /EnablingTech/Visualization/vrml/tools/webview/help/webview.gif HTTP/1.0
+563+1: Tue Aug 22 07:17:14 1995 (/EnablingTech/Visualization/vrml/webview.html): Sent text: GET /EnablingTech/Visualization/vrml/webview.html HTTP/1.0
+95+2: Tue Aug 22 07:17:16 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+193+1: Tue Aug 22 07:17:18 1995 (/wow/situr/rad-map.html): Sent text: GET /wow/situr/rad-map.html HTTP/1.0
+193+2: Tue Aug 22 07:17:20 1995 (/wow/wow-mbos.gif): Sent binary: GET /wow/wow-mbos.gif HTTP/1.0
+193+1: Tue Aug 22 07:17:21 1995 (/wow/situr/rdson-2.jpg): Sent binary: GET /wow/situr/rdson-2.jpg HTTP/1.0
+95+2: Tue Aug 22 07:17:22 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+132+2: Tue Aug 22 07:17:23 1995 (/SDSC/Partners/vrml/software/modelers.html): Sent binary: GET /SDSC/Partners/vrml/software/modelers.html HTTP/1.0
+95+2: Tue Aug 22 07:17:24 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+564+1: Tue Aug 22 07:17:25 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+564+1: Tue Aug 22 07:17:25 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Movies
+565+1: Tue Aug 22 07:17:28 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+394+1: Tue Aug 22 07:17:29 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+394+1: Tue Aug 22 07:17:31 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+551+1: Tue Aug 22 07:17:31 1995 (/wow/mexico/cancun/cancun.html): Sent text: GET /wow/mexico/cancun/cancun.html HTTP/1.0
+565+1: Tue Aug 22 07:17:33 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+565+1: Tue Aug 22 07:17:33 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+565+1: Tue Aug 22 07:17:33 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+565+1: Tue Aug 22 07:17:33 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+394+1: Tue Aug 22 07:17:33 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+394+1: Tue Aug 22 07:17:34 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+551+1: Tue Aug 22 07:17:36 1995 (/wow/mexico/cancun/acan1.jpg): Sent binary: GET /wow/mexico/cancun/acan1.jpg HTTP/1.0
+475+2: Tue Aug 22 07:17:46 1995 (/SDSC/Partners/vrml): Sent cache: GET /SDSC/Partners/vrml/ HTTP/1.0
+475+2: Tue Aug 22 07:17:47 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+475+2: Tue Aug 22 07:17:47 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+475+3: Tue Aug 22 07:17:49 1995 (/SDSC/Partners/Surfrider/weekly/current.htm): Sent text: GET /SDSC/Partners/Surfrider/weekly/current.htm HTTP/1.0
+475+2: Tue Aug 22 07:17:51 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+566+1: Tue Aug 22 07:17:57 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+551+1: Tue Aug 22 07:17:58 1995 (/wow/mexico/cancun/hotelres.html): Sent text: GET /wow/mexico/cancun/hotelres.html HTTP/1.0
+475+2: Tue Aug 22 07:17:58 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+566+1: Tue Aug 22 07:18:00 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+566+1: Tue Aug 22 07:18:00 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+566+1: Tue Aug 22 07:18:00 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+551+1: Tue Aug 22 07:18:02 1995 (/wow/mexico/cancun/hotbeach.jpg): Sent binary: GET /wow/mexico/cancun/hotbeach.jpg HTTP/1.0
+288+1: Tue Aug 22 07:18:20 1995 (/SDSC/Partners/vrml/software/modelers.html): Sent binary: GET /SDSC/Partners/vrml/software/modelers.html HTTP/1.0
+551+1: Tue Aug 22 07:18:23 1995 (/wow/mexico/resort/resort.html): Sent text: GET /wow/mexico/resort/resort.html HTTP/1.0
+551+1: Tue Aug 22 07:18:29 1995 (/wow/mexico/resort/redb.gif): Sent binary: GET /wow/mexico/resort/redb.gif HTTP/1.0
+198+2: Tue Aug 22 07:18:30 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+199+2: Tue Aug 22 07:18:30 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Movies
+567+1: Tue Aug 22 07:18:33 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+567+1: Tue Aug 22 07:18:33 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Movies/uc.html
+496+1: Tue Aug 22 07:18:42 1995 (/SDSC/Partners/vrml/software/util.html): Sent binary: GET /SDSC/Partners/vrml/software/util.html HTTP/1.0
+566+1: Tue Aug 22 07:18:46 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+551+1: Tue Aug 22 07:18:51 1995 (/wow/mexico/cancun/canfirs.html): Sent text: GET /wow/mexico/cancun/canfirs.html HTTP/1.0
+551+1: Tue Aug 22 07:18:54 1995 (/wow/mexico/cancun/trxrt.gif): Sent binary: GET /wow/mexico/cancun/trxrt.gif HTTP/1.0
+566+1: Tue Aug 22 07:18:55 1995 (/SDSC/Partners/vrml/software/develop_lib-vrml.html): Sent binary: GET /SDSC/Partners/vrml/software/develop_lib-vrml.html HTTP/1.0
+496+1: Tue Aug 22 07:18:57 1995 (/SDSC/Partners/vrml/software/geom_trans.html): Sent binary: GET /SDSC/Partners/vrml/software/geom_trans.html HTTP/1.0
+551+1: Tue Aug 22 07:18:58 1995 (/wow/mexico/cancun/cancun.jpg): Sent binary: GET /wow/mexico/cancun/cancun.jpg HTTP/1.0
+568+1: Tue Aug 22 07:19:00 1995 (/CompSci/Xtal/ACA/Jobs/jobs.html): Sent text: GET /CompSci/Xtal/ACA/Jobs/jobs.html HTTP/1.0
+568+1: Tue Aug 22 07:19:06 1995 (/CompSci/Xtal/ACA/Jobs/faculty.html): Sent text: GET /CompSci/Xtal/ACA/Jobs/faculty.html HTTP/1.0
+261+3: Tue Aug 22 07:19:06 1995 (/SDSC/Partners/Surfrider/clrblu16.mov): Sent binary: GET /SDSC/Partners/Surfrider/clrblu16.mov HTTP/1.0
+568+1: Tue Aug 22 07:19:22 1995 (/CompSci/Xtal/ACA/Jobs/industry.html): Sent text: GET /CompSci/Xtal/ACA/Jobs/industry.html HTTP/1.0
+551+1: Tue Aug 22 07:19:35 1995 (/wow/mexico/cancun/cancan.html): Sent text: GET /wow/mexico/cancun/cancan.html HTTP/1.0
+489+2: Tue Aug 22 07:19:42 1995 (/SDSC/Partners/vrml): Sent cache: GET /SDSC/Partners/vrml HTTP/1.0
+489+2: Tue Aug 22 07:19:44 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+489+2: Tue Aug 22 07:19:44 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+489+2: Tue Aug 22 07:19:44 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+489+2: Tue Aug 22 07:19:44 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+229+4: Tue Aug 22 07:19:45 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+569+1: Tue Aug 22 07:19:46 1995 (/SDSC/Partners/vrml/examples.html): Sent text: GET /SDSC/Partners/vrml/examples.html HTTP/1.0
+566+1: Tue Aug 22 07:19:53 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+132+2: Tue Aug 22 07:19:54 1995 (/SDSC/Partners/vrml/software/util.html): Sent binary: GET /SDSC/Partners/vrml/software/util.html HTTP/1.0
+551+1: Tue Aug 22 07:19:57 1995 (/wow/mexico/cancun/canhome.html): Sent text: GET /wow/mexico/cancun/canhome.html HTTP/1.0
+489+2: Tue Aug 22 07:19:57 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+229+4: Tue Aug 22 07:20:03 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+229+4: Tue Aug 22 07:20:03 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+489+2: Tue Aug 22 07:20:05 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+551+1: Tue Aug 22 07:20:06 1995 (/wow/mexico/cancun/acan2.jpg): Sent binary: GET /wow/mexico/cancun/acan2.jpg HTTP/1.0
+570+1: Tue Aug 22 07:20:09 1995 (/SDSC/Partners/vrml): Sent cache: GET /SDSC/Partners/vrml HTTP/1.0
+570+1: Tue Aug 22 07:20:11 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+570+1: Tue Aug 22 07:20:11 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+570+1: Tue Aug 22 07:20:11 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+571+1: Tue Aug 22 07:20:14 1995 (/): Sent cache:
+570+1: Tue Aug 22 07:20:16 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+572+1: Tue Aug 22 07:20:20 1995 (/wow/situr/cpl-main.html): Sent text: GET /wow/situr/cpl-main.html HTTP/1.0
+551+1: Tue Aug 22 07:20:22 1995 (/wow/mexico/cancun/canmap.html): Sent text: GET /wow/mexico/cancun/canmap.html HTTP/1.0
+551+1: Tue Aug 22 07:20:27 1995 (/wow/mexico/cancun/can_map.jpg): Sent binary: GET /wow/mexico/cancun/can_map.jpg HTTP/1.0
+572+1: Tue Aug 22 07:20:43 1995 (/wow/situr/cplaza-x.jpg): Sent binary: GET /wow/situr/cplaza-x.jpg HTTP/1.0
+229+4: Tue Aug 22 07:20:45 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+573+1: Tue Aug 22 07:21:00 1995 (/SC95): Sent cache: GET /SC95 HTTP/1.0
+570+1: Tue Aug 22 07:21:02 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+229+4: Tue Aug 22 07:21:07 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+572+1: Tue Aug 22 07:21:09 1995 (/wow/situr/conti-main.html): Sent text: GET /wow/situr/conti-main.html HTTP/1.0
+572+1: Tue Aug 22 07:21:11 1995 (/wow/situr/cplaza-2.jpg): Sent binary: GET /wow/situr/cplaza-2.jpg HTTP/1.0
+572+1: Tue Aug 22 07:21:11 1995 (/wow/situr/cplaza-1.jpg): Sent binary: GET /wow/situr/cplaza-1.jpg HTTP/1.0
+132+2: Tue Aug 22 07:21:12 1995 (/SDSC/Partners/vrml/press.html): Sent text: GET /SDSC/Partners/vrml/press.html HTTP/1.0
+229+4: Tue Aug 22 07:21:13 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+229+4: Tue Aug 22 07:21:15 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+551+1: Tue Aug 22 07:21:16 1995 (/wow/mexico/cattoc.html): Sent text: GET /wow/mexico/cattoc.html HTTP/1.0
+570+1: Tue Aug 22 07:21:20 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+570+1: Tue Aug 22 07:21:23 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+551+1: Tue Aug 22 07:21:31 1995 (/wow/wow-4.gif): Sent binary: GET /wow/wow-4.gif HTTP/1.0
+574+1: Tue Aug 22 07:21:38 1995 (/EnablingTech/Visualization/vrml/webview.html): Sent text: GET /EnablingTech/Visualization/vrml/webview.html HTTP/1.0
+496+1: Tue Aug 22 07:21:48 1995 (/SDSC/Partners/vrml/doc.html): Sent text: GET /SDSC/Partners/vrml/doc.html HTTP/1.0
+496+1: Tue Aug 22 07:21:50 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+575+1: Tue Aug 22 07:21:50 1995 (/SDSC/Research/Comp_Bio/ESA/ESA.html): Sent text: GET /1/SDSC/Research/Comp_Bio/ESA/ESA.html HTTP/1.0
+574+1: Tue Aug 22 07:21:51 1995 (/EnablingTech/Visualization/vrml/tools/webview/help/webview.gif): Sent binary: GET /EnablingTech/Visualization/vrml/tools/webview/help/webview.gif HTTP/1.0
+575+1: Tue Aug 22 07:21:51 1995 (/SDSC/Research/Comp_Bio/ESA/ESALogo5.GIF): Sent binary: GET /1/SDSC/Research/Comp_Bio/ESA/ESALogo5.GIF HTTP/1.0
+288+2: Tue Aug 22 07:21:53 1995 (/SDSC/Partners/vrml/examples.html): Sent text: GET /SDSC/Partners/vrml/examples.html HTTP/1.0
+81+6: Tue Aug 22 07:21:58 1995 (/images/iotw.gif): Sent binary: GET /images/iotw.gif HTTP/1.0
+81+6: Tue Aug 22 07:21:58 1995 (/images/redbar.gif): Sent binary: GET /images/redbar.gif HTTP/1.0
+81+6: Tue Aug 22 07:21:58 1995 (/images/blackbar.gif): Sent binary: GET /images/blackbar.gif HTTP/1.0
+446+1: Tue Aug 22 07:22:01 1995 (/SDSC/Partners/vrml/examples.html): Sent text: GET /SDSC/Partners/vrml/examples.html HTTP/1.0
+551+1: Tue Aug 22 07:22:03 1995 (/wow/mexico/resort/resort.html): Sent text: GET /wow/mexico/resort/resort.html HTTP/1.0
+237+2: Tue Aug 22 07:22:03 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+237+2: Tue Aug 22 07:22:03 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/sdsc/staff/wilkinsn/sdh3/history.html
+446+1: Tue Aug 22 07:22:03 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+446+1: Tue Aug 22 07:22:03 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+446+1: Tue Aug 22 07:22:03 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+576+1: Tue Aug 22 07:22:13 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+576+1: Tue Aug 22 07:22:13 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Movies
+229+4: Tue Aug 22 07:22:17 1995 (/SDSC/Partners/vrml/software/modelers.html): Sent binary: GET /SDSC/Partners/vrml/software/modelers.html HTTP/1.0
+237+2: Tue Aug 22 07:22:32 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+237+2: Tue Aug 22 07:22:32 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/sdsc/staff/wilkinsn/sdh3/history.html
+132+2: Tue Aug 22 07:22:49 1995 (/SDSC/Partners/vrml/repos_other.html): Sent text: GET /SDSC/Partners/vrml/repos_other.html HTTP/1.0
+41+1: Tue Aug 22 07:23:01 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+551+1: Tue Aug 22 07:23:04 1995 (/wow/mexico/resort/clubmed.html): Sent text: GET /wow/mexico/resort/clubmed.html HTTP/1.0
+570+1: Tue Aug 22 07:23:06 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+570+1: Tue Aug 22 07:23:09 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+570+1: Tue Aug 22 07:23:09 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+570+1: Tue Aug 22 07:23:10 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+237+2: Tue Aug 22 07:23:17 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+237+2: Tue Aug 22 07:23:17 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/sdsc/staff/wilkinsn/sdh3/history.html
+81+6: Tue Aug 22 07:23:25 1995 (/images/redbar.gif): Sent binary: GET /images/redbar.gif HTTP/1.0
+81+6: Tue Aug 22 07:23:25 1995 (/images/iotw.gif): Sent binary: GET /images/iotw.gif HTTP/1.0
+81+6: Tue Aug 22 07:23:25 1995 (/images/blackbar.gif): Sent binary: GET /images/blackbar.gif HTTP/1.0
+229+4: Tue Aug 22 07:23:26 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+464+3: Tue Aug 22 07:23:40 1995 (/SDSC/Partners/vrml/software/util.html): Sent binary: GET /SDSC/Partners/vrml/software/util.html HTTP/1.0
+570+1: Tue Aug 22 07:23:43 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+577+1: Tue Aug 22 07:23:51 1995 (/SDSC/Research/Visualization/Tecate/tecate.html): Sent text: GET /0/SDSC/Research/Visualization/Tecate/tecate.html HTTP/1.0
+577+1: Tue Aug 22 07:23:57 1995 (/SDSC/Research/Visualization/Tecate/images/logo.gif): Sent binary: GET /0/SDSC/Research/Visualization/Tecate/images/logo.gif HTTP/1.0
+577+1: Tue Aug 22 07:24:01 1995 (/images/icon_research.gif): Sent binary: GET /images/icon_research.gif HTTP/1.0
+577+1: Tue Aug 22 07:24:01 1995 (/images/logo_square.gif): Sent binary: GET /images/logo_square.gif HTTP/1.0
+81+6: Tue Aug 22 07:24:03 1995 (/images/redbar.gif): Sent binary: GET /images/redbar.gif HTTP/1.0
+81+6: Tue Aug 22 07:24:03 1995 (/images/blackbar.gif): Sent binary: GET /images/blackbar.gif HTTP/1.0
+81+6: Tue Aug 22 07:24:03 1995 (/images/biglogo.gif): Sent binary: GET /images/biglogo.gif HTTP/1.0
+551+1: Tue Aug 22 07:24:06 1995 (/wow/mexico/market/market.html): Sent text: GET /wow/mexico/market/market.html HTTP/1.0
+578+1: Tue Aug 22 07:24:09 1995 (/SC95): Sent cache: GET /SC95/ HTTP/1.0
+578+1: Tue Aug 22 07:24:11 1995 (/SC95/Images/logo.gif): Sent binary: GET /I/SC95/Images/logo.gif HTTP/1.0
+41+1: Tue Aug 22 07:24:16 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+579+1: Tue Aug 22 07:24:24 1995 (/SDSC/Geninfo/SDarea/sdarea.html): Sent text: GET /0/SDSC/Geninfo/SDarea/sdarea.html HTTP/1.0
+41+1: Tue Aug 22 07:24:26 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+577+1: Tue Aug 22 07:24:27 1995 (/sdsc.html): Sent text: GET /sdsc.html HTTP/1.0
+577+1: Tue Aug 22 07:24:29 1995 (/images/logo.gif): Sent binary: GET /images/logo.gif HTTP/1.0
+578+1: Tue Aug 22 07:24:32 1995 (/SC95/Images/yellow_button.gif): Sent binary: GET /I/SC95/Images/yellow_button.gif HTTP/1.0
+551+1: Tue Aug 22 07:24:32 1995 (/wow/mexico/buttons/redb.gif): Sent binary: GET /wow/mexico/buttons/redb.gif HTTP/1.0
+577+1: Tue Aug 22 07:24:35 1995 (/images/blackbar.gif): Sent binary: GET /images/blackbar.gif HTTP/1.0
+551+1: Tue Aug 22 07:24:37 1995 (/wow/mexico/wow-3.jpg): Sent binary: GET /wow/mexico/wow-3.jpg HTTP/1.0
+578+1: Tue Aug 22 07:24:46 1995 (/SC95/Images/reddot_button.gif): Sent binary: GET /I/SC95/Images/reddot_button.gif HTTP/1.0
+580+1: Tue Aug 22 07:24:51 1995 (/SC95/scinet/scinet_info.html): Sent text: GET /SC95/scinet/scinet_info.html HTTP/1.0
+580+1: Tue Aug 22 07:24:52 1995 (/SC95/scinet/images/title_bar.gif): Sent binary: GET /SC95/scinet/images/title_bar.gif HTTP/1.0
+579+1: Tue Aug 22 07:24:53 1995 (/SDSC/Geninfo/SDarea/other_refs.html): Sent text: GET /0/SDSC/Geninfo/SDarea/other_refs.html HTTP/1.0
+580+1: Tue Aug 22 07:24:53 1995 (/SC95/scinet/images/navigation_bar.gif): Sent binary: GET /SC95/scinet/images/navigation_bar.gif HTTP/1.0
+580+1: Tue Aug 22 07:25:05 1995 (/SC95/scinet/org/log/log_status.html): Sent text: GET /SC95/scinet/org/log/log_status.html HTTP/1.0
+551+1: Tue Aug 22 07:25:15 1995 (/wow/mexico/resort/situr.html): Sent text: GET /wow/mexico/resort/situr.html HTTP/1.0
+581+1: Tue Aug 22 07:25:15 1995 (/ucsd.html): Sent text: GET /ucsd.html HTTP/1.0
+581+1: Tue Aug 22 07:25:16 1995 (/images/logo.gif): Sent binary: GET /images/logo.gif HTTP/1.0
+581+1: Tue Aug 22 07:25:16 1995 (/images/blackbar.gif): Sent binary: GET /images/blackbar.gif HTTP/1.0
+578+1: Tue Aug 22 07:25:18 1995 (/SC95/Images/redcheck_button.gif): Sent binary: GET /I/SC95/Images/redcheck_button.gif HTTP/1.0
+551+1: Tue Aug 22 07:25:19 1995 (/wow/mexico/resort/sit-pres.jpg): Sent binary: GET /wow/mexico/resort/sit-pres.jpg HTTP/1.0
+551+1: Tue Aug 22 07:25:24 1995 (/wow/mexico/resort/grupd.gif): Sent binary: GET /wow/mexico/resort/grupd.gif HTTP/1.0
+582+1: Tue Aug 22 07:25:27 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+582+1: Tue Aug 22 07:25:27 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/CGI/SDSC/Metacenter/MetaScience/bin/meta_search.cgi
+237+2: Tue Aug 22 07:25:35 1995 (/SDSC/Staff/wilkinsn/sdh3/history.html): Sent text: GET /SDSC/Staff/wilkinsn/sdh3/history.html HTTP/1.0
+237+2: Tue Aug 22 07:25:37 1995 (/SDSC/Staff/wilkinsn/images/red_inu.gif): Sent binary: GET /SDSC/Staff/wilkinsn/images/red_inu.gif HTTP/1.0
+237+2: Tue Aug 22 07:25:37 1995 (/SDSC/Staff/wilkinsn/images/balloon.gif): Sent binary: GET /SDSC/Staff/wilkinsn/images/balloon.gif HTTP/1.0
+81+6: Tue Aug 22 07:25:42 1995 (/Home.html): Sent text: GET /Home.html HTTP/1.0
+583+1: Tue Aug 22 07:25:58 1995 (/SDSC/Geninfo/Internet/books): Sent cache: GET /1/SDSC/Geninfo/Internet/books HTTP/1.0
+584+1: Tue Aug 22 07:26:05 1995 (/SC95): Sent cache: GET /SC95 HTTP/1.0
+584+1: Tue Aug 22 07:26:07 1995 (/SC95/Images/logo.gif): Sent binary: GET /I/SC95/Images/logo.gif HTTP/1.0
+584+1: Tue Aug 22 07:26:07 1995 (/SC95/Images/yellow_button.gif): Sent binary: GET /I/SC95/Images/yellow_button.gif HTTP/1.0
+584+1: Tue Aug 22 07:26:07 1995 (/SC95/Images/redcheck_button.gif): Sent binary: GET /I/SC95/Images/redcheck_button.gif HTTP/1.0
+584+1: Tue Aug 22 07:26:08 1995 (/SC95/Images/stripe_button.gif): Sent binary: GET /I/SC95/Images/stripe_button.gif HTTP/1.0
+81+6: Tue Aug 22 07:26:12 1995 (/Home.html): Sent text: GET /Home.html HTTP/1.0
+584+1: Tue Aug 22 07:26:15 1995 (/SC95/registration.html): Sent text: GET /SC95/registration.html HTTP/1.0
+578+1: Tue Aug 22 07:26:36 1995 (/SC95/registration.html): Sent text: GET /SC95/registration.html HTTP/1.0
+81+6: Tue Aug 22 07:26:41 1995 (/IOTW/iotw.html): Sent text: GET /IOTW/iotw.html HTTP/1.0
+81+6: Tue Aug 22 07:26:42 1995 (/images/logo.gif): Sent binary: GET /images/logo.gif HTTP/1.0
+81+6: Tue Aug 22 07:26:44 1995 (/IOTW/week34/mandewheel-rgb.GIF): Sent binary: GET /I/IOTW/week34/mandewheel-rgb.GIF HTTP/1.0
+81+6: Tue Aug 22 07:26:56 1995 (/sdsc.html): Sent text: GET /sdsc.html HTTP/1.0
+551+1: Tue Aug 22 07:27:04 1995 (/wow/situr/sidektur.html): Sent text: GET /wow/situr/sidektur.html HTTP/1.0
+585+1: Tue Aug 22 07:27:06 1995 (/SDSCHome.html): Sent text: GET /SDSCHome.html HTTP/1.0
+585+1: Tue Aug 22 07:27:08 1995 (/images/biglogo.gif): Sent binary: GET /images/biglogo.gif HTTP/1.0
+551+1: Tue Aug 22 07:27:09 1995 (/wow/situr/wow-mbos.gif): Sent binary: GET /wow/situr/wow-mbos.gif HTTP/1.0
+585+1: Tue Aug 22 07:27:10 1995 (/images/iotw.gif): Sent binary: GET /images/iotw.gif HTTP/1.0
+585+1: Tue Aug 22 07:27:18 1995 (/images/redbar.gif): Sent binary: GET /images/redbar.gif HTTP/1.0
+585+1: Tue Aug 22 07:27:20 1995 (/images/blackbar.gif): Sent binary: GET /images/blackbar.gif HTTP/1.0
+586+1: Tue Aug 22 07:27:22 1995 (/wow/mexico/city/redb.gif): Sent binary: GET /wow/mexico/city/redb.gif HTTP/1.0
+586+1: Tue Aug 22 07:27:22 1995 (/wow/wow-mbos.gif): Sent binary: GET /wow/wow-mbos.gif HTTP/1.0
+586+1: Tue Aug 22 07:27:22 1995 (/wow/mexico/city/mex-df.jpg): Sent binary: GET /wow/mexico/city/mex-df.jpg HTTP/1.0
+551+1: Tue Aug 22 07:27:27 1995 (/wow/situr/sidektur_blue.jpg): Sent binary: GET /wow/situr/sidektur_blue.jpg HTTP/1.0
+484+2: Tue Aug 22 07:27:46 1995 (/wow/mexico/posadas/bursa.jpg): Sent binary: GET /wow/mexico/posadas/bursa.jpg HTTP/1.0
+587+1: Tue Aug 22 07:27:54 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+587+1: Tue Aug 22 07:27:57 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+587+1: Tue Aug 22 07:27:57 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+587+1: Tue Aug 22 07:28:02 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+586+1: Tue Aug 22 07:28:03 1995 (/wow/mexico/city/change.html): Sent text: GET /wow/mexico/city/change.html HTTP/1.0
+588+1: Tue Aug 22 07:28:05 1995 (/): Sent cache:
+587+1: Tue Aug 22 07:28:05 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+585+1: Tue Aug 22 07:28:14 1995 (/cgi-bin/imagemap.cgi): Sent CGI redirection: GET /CGI/cgi-bin/imagemap.cgi/blackbar?61,22 HTTP/1.0
+585+1: Tue Aug 22 07:28:16 1995 (/whatsnew.html): Sent text: GET /whatsnew.html HTTP/1.0
+585+1: Tue Aug 22 07:28:17 1995 (/images/logo.gif): Sent binary: GET /images/logo.gif HTTP/1.0
+585+1: Tue Aug 22 07:28:20 1995 (/images/whatsnewhead.gif): Sent binary: GET /images/whatsnewhead.gif HTTP/1.0
+450+1: Tue Aug 22 07:28:21 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+450+1: Tue Aug 22 07:28:23 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+450+1: Tue Aug 22 07:28:23 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+450+1: Tue Aug 22 07:28:28 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+450+1: Tue Aug 22 07:28:29 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+261+3: Tue Aug 22 07:28:29 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/notes.htm HTTP/1.0
+261+3: Tue Aug 22 07:28:29 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:28:29 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/notes.htm
+585+1: Tue Aug 22 07:28:34 1995 (/cgi-bin/imagemap.cgi): Sent CGI redirection: GET /CGI/cgi-bin/imagemap.cgi/top?328,34 HTTP/1.0
+261+3: Tue Aug 22 07:28:35 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+261+3: Tue Aug 22 07:28:35 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:28:35 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+585+1: Tue Aug 22 07:28:36 1995 (/Home.html): Sent text: GET /Home.html HTTP/1.0
+589+1: Tue Aug 22 07:28:42 1995 (/EnablingTech/Visualization/vrml/webview.html): Sent text: GET /EnablingTech/Visualization/vrml/webview.html HTTP/1.0
+589+1: Tue Aug 22 07:28:43 1995 (/EnablingTech/Visualization/vrml/tools/webview/help/webview.gif): Sent binary: GET /EnablingTech/Visualization/vrml/tools/webview/help/webview.gif HTTP/1.0
+231+3: Tue Aug 22 07:28:48 1995 (/SDSC/Geninfo/Internet): Sent cache: 1/SDSC/Geninfo/Internet/
+585+1: Tue Aug 22 07:28:51 1995 (/SDSC/Staff/Directory/search.html): Sent text: GET /SDSC/Staff/Directory/search.html HTTP/1.0
+261+3: Tue Aug 22 07:28:55 1995 (/SDSC/Partners/Surfrider/dirty/main.htm): Sent text: GET /SDSC/Partners/Surfrider/dirty/main.htm HTTP/1.0
+590+1: Tue Aug 22 07:28:58 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+261+3: Tue Aug 22 07:28:58 1995 (/SDSC/Partners/Surfrider/dirty/blhead.gif): Sent binary: GET /SDSC/Partners/Surfrider/dirty/blhead.gif HTTP/1.0
+433+1: Tue Aug 22 07:29:00 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+188+3: Tue Aug 22 07:29:03 1995 (/EnablingTech/Visualization/vrml/webview.html): Sent text: GET /EnablingTech/Visualization/vrml/webview.html HTTP/1.0
+591+1: Tue Aug 22 07:29:04 1995 (/SDSC/Geninfo/SDarea/hotels.html): Sent text: GET /0/SDSC/Geninfo/SDarea/hotels.html HTTP/1.0
+591+1: Tue Aug 22 07:29:05 1995 (/SDSC/Geninfo/SDarea/Images/sdareabar.GIF): Sent binary: GET /I/SDSC/Geninfo/SDarea/Images/sdareabar.GIF HTTP/1.0
+551+1: Tue Aug 22 07:29:06 1995 (/cgi-bin/imagemap.cgi): Sent CGI redirection: GET /CGI/cgi-bin/imagemap.cgi/wow/cgi-bin/maps/hotels-3.map?103,77 HTTP/1.0
+188+3: Tue Aug 22 07:29:08 1995 (/EnablingTech/Visualization/vrml/tools/webview/help/webview.gif): Sent binary: GET /EnablingTech/Visualization/vrml/tools/webview/help/webview.gif HTTP/1.0
+551+1: Tue Aug 22 07:29:08 1995 (/wow/situr/cpl-main.html): Sent text: GET /wow/situr/cpl-main.html HTTP/1.0
+231+3: Tue Aug 22 07:29:09 1995 (/SDSC/Geninfo/Internet/fun): Sent cache: 1/SDSC/Geninfo/Internet/fun
+433+1: Tue Aug 22 07:29:11 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+433+1: Tue Aug 22 07:29:11 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+586+1: Tue Aug 22 07:29:11 1995 (/wow/mexico/coln/colhome.html): Sent text: GET /wow/mexico/coln/colhome.html HTTP/1.0
+586+1: Tue Aug 22 07:29:13 1995 (/wow/mexico/coln/colmosd.gif): Sent binary: GET /wow/mexico/coln/colmosd.gif HTTP/1.0
+433+1: Tue Aug 22 07:29:21 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+261+3: Tue Aug 22 07:29:33 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+261+3: Tue Aug 22 07:29:33 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:29:33 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+433+1: Tue Aug 22 07:29:33 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+231+3: Tue Aug 22 07:29:35 1995 (/SDSC/Geninfo/Internet/food): Sent cache: 1/SDSC/Geninfo/Internet/food
+586+1: Tue Aug 22 07:29:35 1995 (/wow/mexico/maps/maps.html): Sent text: GET /wow/mexico/maps/maps.html HTTP/1.0
+592+1: Tue Aug 22 07:29:37 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+592+1: Tue Aug 22 07:29:39 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+592+1: Tue Aug 22 07:29:39 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+592+1: Tue Aug 22 07:29:39 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+592+1: Tue Aug 22 07:29:39 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+586+1: Tue Aug 22 07:29:40 1995 (/wow/mexico/sport/golfmapd.gif): Sent binary: GET /wow/mexico/sport/golfmapd.gif HTTP/1.0
+231+3: Tue Aug 22 07:29:46 1995 (/SDSC/Geninfo/Internet/movies): Sent cache: 1/SDSC/Geninfo/Internet/movies
+539+1: Tue Aug 22 07:29:52 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+539+1: Tue Aug 22 07:29:52 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Stills/smog.gif
+231+3: Tue Aug 22 07:29:53 1995 (/SDSC/Geninfo/Internet/news): Sent cache: 1/SDSC/Geninfo/Internet/news
+261+3: Tue Aug 22 07:29:56 1995 (/SDSC/Partners/Surfrider/join.htm): Sent text: GET /SDSC/Partners/Surfrider/join.htm HTTP/1.0
+261+3: Tue Aug 22 07:30:01 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo4.gif HTTP/1.0
+261+3: Tue Aug 22 07:30:01 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:30:01 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo4.gif
+593+1: Tue Aug 22 07:30:06 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+594+1: Tue Aug 22 07:30:08 1995 (/wow/mexico/cancun/canfirs.html): Sent text: GET /wow/mexico/cancun/canfirs.html HTTP/1.0
+593+1: Tue Aug 22 07:30:09 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+593+1: Tue Aug 22 07:30:10 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+593+1: Tue Aug 22 07:30:10 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+593+1: Tue Aug 22 07:30:10 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+594+1: Tue Aug 22 07:30:11 1995 (/wow/wow-mbos.gif): Sent binary: GET /wow/wow-mbos.gif HTTP/1.0
+594+1: Tue Aug 22 07:30:11 1995 (/wow/mexico/cancun/trxrt.gif): Sent binary: GET /wow/mexico/cancun/trxrt.gif HTTP/1.0
+594+1: Tue Aug 22 07:30:11 1995 (/wow/mexico/cancun/cancun.jpg): Sent binary: GET /wow/mexico/cancun/cancun.jpg HTTP/1.0
+433+1: Tue Aug 22 07:30:27 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+261+3: Tue Aug 22 07:30:28 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+261+3: Tue Aug 22 07:30:28 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:30:28 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+433+1: Tue Aug 22 07:30:38 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+261+3: Tue Aug 22 07:30:38 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/programs.htm HTTP/1.0
+261+3: Tue Aug 22 07:30:38 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:30:38 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/programs.htm
+261+3: Tue Aug 22 07:30:42 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+261+3: Tue Aug 22 07:30:42 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:30:42 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+593+1: Tue Aug 22 07:30:48 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+594+1: Tue Aug 22 07:30:49 1995 (/wow/mexico/cancun/cancan.html): Sent text: GET /wow/mexico/cancun/cancan.html HTTP/1.0
+551+1: Tue Aug 22 07:30:50 1995 (/wow/situr/cplaza-x.jpg): Sent binary: GET /wow/situr/cplaza-x.jpg HTTP/1.0
+595+1: Tue Aug 22 07:30:58 1995 (/SDSC/Staff/trostler/trostler.html): Sent text: GET /SDSC/Staff/trostler/trostler.html HTTP/1.0
+261+3: Tue Aug 22 07:30:59 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/somppl16.mov HTTP/1.0
+261+3: Tue Aug 22 07:30:59 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:30:59 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/somppl16.mov
+595+1: Tue Aug 22 07:31:01 1995 (/SDSC/Staff/trostler/images/phishbow.gif): Sent binary: GET /SDSC/Staff/trostler/images/phishbow.gif HTTP/1.0
+595+1: Tue Aug 22 07:31:01 1995 (/SDSC/Staff/trostler/images/wave2.jpg): Sent binary: GET /SDSC/Staff/trostler/images/wave2.jpg HTTP/1.0
+595+1: Tue Aug 22 07:31:01 1995 (/SDSC/Staff/trostler/images/wave1.jpg): Sent binary: GET /SDSC/Staff/trostler/images/wave1.jpg HTTP/1.0
+261+3: Tue Aug 22 07:31:03 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+261+3: Tue Aug 22 07:31:03 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+261+3: Tue Aug 22 07:31:03 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+586+1: Tue Aug 22 07:31:05 1995 (/wow/navix.html): Sent text: GET /wow/navix.html HTTP/1.0
+593+1: Tue Aug 22 07:31:06 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+595+1: Tue Aug 22 07:31:07 1995 (/SDSC/Staff/trostler/images/bsurf.gif): Sent binary: GET /SDSC/Staff/trostler/images/bsurf.gif HTTP/1.0
+586+1: Tue Aug 22 07:31:07 1995 (/wow/wow-mbos.gif): Sent binary: GET /wow/wow/wow-mbos.gif HTTP/1.0
+595+1: Tue Aug 22 07:31:08 1995 (/SDSC/Staff/trostler/images/melman.jpg): Sent binary: GET /SDSC/Staff/trostler/images/melman.jpg HTTP/1.0
+595+1: Tue Aug 22 07:31:08 1995 (/SDSC/Staff/trostler/images/wave3.jpg): Sent binary: GET /SDSC/Staff/trostler/images/wave3.jpg HTTP/1.0
+595+1: Tue Aug 22 07:31:08 1995 (/SDSC/Staff/trostler/images/wave4.jpg): Sent binary: GET /SDSC/Staff/trostler/images/wave4.jpg HTTP/1.0
+595+1: Tue Aug 22 07:31:08 1995 (/SDSC/Staff/trostler/images/homer.jpg): Sent binary: GET /SDSC/Staff/trostler/images/homer.jpg HTTP/1.0
+593+1: Tue Aug 22 07:31:10 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+596+1: Tue Aug 22 07:31:12 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+596+1: Tue Aug 22 07:31:13 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+596+1: Tue Aug 22 07:31:14 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+596+1: Tue Aug 22 07:31:14 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+596+1: Tue Aug 22 07:31:14 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+595+1: Tue Aug 22 07:31:14 1995 (/SDSC/Staff/trostler/images/marge.jpg): Sent binary: GET /SDSC/Staff/trostler/images/marge.jpg HTTP/1.0
+595+1: Tue Aug 22 07:31:14 1995 (/SDSC/Staff/trostler/images/slingshot_bart.jpg): Sent binary: GET /SDSC/Staff/trostler/images/slingshot_bart.jpg HTTP/1.0
+231+3: Tue Aug 22 07:31:14 1995 (/SDSC/Geninfo/Internet/stocks): Sent cache: 1/SDSC/Geninfo/Internet/stocks
+595+1: Tue Aug 22 07:31:15 1995 (/SDSC/Staff/trostler/images/lisa.jpg): Sent binary: GET /SDSC/Staff/trostler/images/lisa.jpg HTTP/1.0
+595+1: Tue Aug 22 07:31:18 1995 (/SDSC/Staff/trostler/images/maggie.jpg): Sent binary: GET /SDSC/Staff/trostler/images/maggie.jpg HTTP/1.0
+231+3: Tue Aug 22 07:31:19 1995 (/SDSC/Geninfo/Internet/sports): Sent cache: 1/SDSC/Geninfo/Internet/sports
+595+1: Tue Aug 22 07:31:24 1995 (/SDSC/Staff/trostler/images/Chargers.gif): Sent binary: GET /SDSC/Staff/trostler/images/Chargers.gif HTTP/1.0
+261+3: Tue Aug 22 07:31:24 1995 (/SDSC/Partners/Surfrider/culture/main.htm): Sent text: GET /SDSC/Partners/Surfrider/culture/main.htm HTTP/1.0
+261+3: Tue Aug 22 07:31:26 1995 (/SDSC/Partners/Surfrider/culture/srflogo4.gif): Sent binary: GET /SDSC/Partners/Surfrider/culture/srflogo4.gif HTTP/1.0
+596+1: Tue Aug 22 07:31:26 1995 (/SDSC/Partners/vrml/examples.html): Sent text: GET /SDSC/Partners/vrml/examples.html HTTP/1.0
+596+1: Tue Aug 22 07:31:27 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+595+1: Tue Aug 22 07:31:30 1995 (/SDSC/Staff/trostler/simp.html): Sent text: GET /SDSC/Staff/trostler/simp.html HTTP/1.0
+231+3: Tue Aug 22 07:31:32 1995 (/SDSC/Geninfo/Internet/telecom): Sent cache: 1/SDSC/Geninfo/Internet/telecom
+597+1: Tue Aug 22 07:31:36 1995 (/Home.html): Sent text: GET /Home.html HTTP/1.0
+586+1: Tue Aug 22 07:31:38 1995 (/wow/mexico/culinary/dish.html): Sent text: GET /wow/mexico/culinary/dish.html HTTP/1.0
+597+1: Tue Aug 22 07:31:39 1995 (/images/biglogo.gif): Sent binary: GET /images/biglogo.gif HTTP/1.0
+261+3: Tue Aug 22 07:31:39 1995 (/SDSC/Partners/Surfrider/culture/music/main.htm): Sent text: GET /SDSC/Partners/Surfrider/culture/music/main.htm HTTP/1.0
+586+1: Tue Aug 22 07:31:40 1995 (/wow/usa/rodeo/plat.jpg): Sent binary: GET /wow/usa/rodeo/plat.jpg HTTP/1.0
+598+1: Tue Aug 22 07:31:41 1995 (/SDSC/Geninfo/Internet/books): Sent cache: GET /1/SDSC/Geninfo/Internet/books HTTP/1.0
+261+3: Tue Aug 22 07:31:42 1995 (/SDSC/Partners/Surfrider/culture/music/gary.gif): Sent binary: GET /SDSC/Partners/Surfrider/culture/music/gary.gif HTTP/1.0
+597+1: Tue Aug 22 07:31:43 1995 (/images/iotw.gif): Sent binary: GET /images/iotw.gif HTTP/1.0
+231+3: Tue Aug 22 07:31:44 1995 (/SDSC/Geninfo/Internet/selfhelp): Sent cache: 1/SDSC/Geninfo/Internet/selfhelp
+597+1: Tue Aug 22 07:31:49 1995 (/images/redbar.gif): Sent binary: GET /images/redbar.gif HTTP/1.0
+231+3: Tue Aug 22 07:31:49 1995 (/SDSC/Geninfo/Internet/real_estate): Sent cache: 1/SDSC/Geninfo/Internet/real_estate
+595+1: Tue Aug 22 07:31:51 1995 (/SDSC/Staff/trostler/simp.html): Sent text: GET /SDSC/Staff/trostler/simp.html HTTP/1.0
+597+1: Tue Aug 22 07:31:52 1995 (/images/blackbar.gif): Sent binary: GET /images/blackbar.gif HTTP/1.0
+599+1: Tue Aug 22 07:31:54 1995 (/): Sent cache:
+398+2: Tue Aug 22 07:32:01 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+398+2: Tue Aug 22 07:32:05 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+21+1: Tue Aug 22 07:32:14 1995 (/SDSC/Partners/Surfrider/culture/srflogo4.gif): Sent binary: GET /SDSC/Partners/Surfrider/culture/srflogo4.gif HTTP/1.0
+398+2: Tue Aug 22 07:32:15 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+197+9: Tue Aug 22 07:32:17 1995 (/SDSC/Geninfo/Internet/books): Sent cache: GET /1/SDSC/Geninfo/Internet/books HTTP/1.0
+586+1: Tue Aug 22 07:32:17 1995 (/wow/mexico/arch/museum.html): Sent text: GET /wow/mexico/arch/museum.html HTTP/1.0
+586+1: Tue Aug 22 07:32:18 1995 (/wow/mexico/buttons/winbard.gif): Sent binary: GET /wow/mexico/buttons/winbard.gif HTTP/1.0
+586+1: Tue Aug 22 07:32:18 1995 (/wow/mexico/city/museum.jpg): Sent binary: GET /wow/mexico/city/museum.jpg HTTP/1.0
+261+3: Tue Aug 22 07:32:19 1995 (/SDSC/Partners/Surfrider/culture/music/surf/main.htm): Sent text: GET /SDSC/Partners/Surfrider/culture/music/surf/main.htm HTTP/1.0
+261+3: Tue Aug 22 07:32:22 1995 (/SDSC/Partners/Surfrider/culture/music/surf/surf.gif): Sent binary: GET /SDSC/Partners/Surfrider/culture/music/surf/surf.gif HTTP/1.0
+398+2: Tue Aug 22 07:32:34 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+579+1: Tue Aug 22 07:32:34 1995 (/SDSC/Geninfo/SDarea/directions.html): Sent text: GET /0/SDSC/Geninfo/SDarea/directions.html HTTP/1.0
+539+1: Tue Aug 22 07:32:37 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+539+1: Tue Aug 22 07:32:37 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Stills/smog.gif
+398+2: Tue Aug 22 07:32:37 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+600+1: Tue Aug 22 07:33:11 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+600+1: Tue Aug 22 07:33:12 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+600+1: Tue Aug 22 07:33:12 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+600+1: Tue Aug 22 07:33:12 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+600+1: Tue Aug 22 07:33:15 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+25+2: Tue Aug 22 07:33:17 1995 (/surfrider.html): Sent text: GET /surfrider.html HTTP/1.0
+600+1: Tue Aug 22 07:33:19 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+25+2: Tue Aug 22 07:33:21 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo7.gif HTTP/1.0
+25+2: Tue Aug 22 07:33:21 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+25+2: Tue Aug 22 07:33:21 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo7.gif
+25+2: Tue Aug 22 07:33:22 1995 (/SDSC/Partners/Surfrider/hdsurf.gif): Sent binary: GET /SDSC/Partners/Surfrider/hdsurf.gif HTTP/1.0
+25+2: Tue Aug 22 07:33:22 1995 (/SDSC/Partners/Surfrider/air1.gif): Sent binary: GET /SDSC/Partners/Surfrider/air1.gif HTTP/1.0
+600+1: Tue Aug 22 07:33:23 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+600+1: Tue Aug 22 07:33:25 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+601+1: Tue Aug 22 07:33:27 1995 (/Events/vrml_symposium): Sent cache: GET /Events/vrml_symposium HTTP/1.0
+551+1: Tue Aug 22 07:33:28 1995 (/wow/situr/conti-main.html): Sent text: GET /wow/situr/conti-main.html HTTP/1.0
+551+1: Tue Aug 22 07:33:32 1995 (/wow/situr/cplaza-2.jpg): Sent binary: GET /wow/situr/cplaza-2.jpg HTTP/1.0
+62+1: Tue Aug 22 07:33:32 1995 (/CompSci/Xtal/ACA/Other/other.html): Sent text: GET /CompSci/Xtal/ACA/Other/other.html HTTP/1.0
+589+1: Tue Aug 22 07:33:33 1995 (/EnablingTech/Visualization/vrml/tools/webview/help/webview_building_v1.0b1.html): Sent text: GET /EnablingTech/Visualization/vrml/tools/webview/help/webview_building_v1.0b1.html HTTP/1.0
+601+1: Tue Aug 22 07:33:43 1995 (/Events/vrml95/red_dot.gif): Sent binary: GET /Events/vrml95/red_dot.gif HTTP/1.0
+324+2: Tue Aug 22 07:33:46 1995 (/SDSC/Partners/vrml/examples.html): Sent text: GET /SDSC/Partners/vrml/examples.html HTTP/1.0
+324+2: Tue Aug 22 07:33:50 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+324+2: Tue Aug 22 07:33:50 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+507+1: Tue Aug 22 07:33:53 1995 (/EnablingTech/Visualization/vrml/webview.html): Sent text: GET /EnablingTech/Visualization/vrml/webview.html HTTP/1.0
+507+1: Tue Aug 22 07:33:55 1995 (/EnablingTech/Visualization/vrml/tools/webview/help/webview.gif): Sent binary: GET /EnablingTech/Visualization/vrml/tools/webview/help/webview.gif HTTP/1.0
+324+2: Tue Aug 22 07:33:57 1995 (/SDSC/Partners/vrml): Sent cache: GET /SDSC/Partners/vrml/ HTTP/1.0
+324+2: Tue Aug 22 07:33:58 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+324+2: Tue Aug 22 07:33:58 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+324+2: Tue Aug 22 07:34:03 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+324+2: Tue Aug 22 07:34:07 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+601+1: Tue Aug 22 07:34:07 1995 (/Events/vrml95/organizers.html): Sent text: GET /Events/vrml95/organizers.html HTTP/1.0
+324+2: Tue Aug 22 07:34:08 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+551+1: Tue Aug 22 07:34:10 1995 (/wow/email.html): Sent text: GET /wow/email.html HTTP/1.0
+25+2: Tue Aug 22 07:34:11 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/somppl24.mov HTTP/1.0
+25+2: Tue Aug 22 07:34:11 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+25+2: Tue Aug 22 07:34:11 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/somppl24.mov
+81+6: Tue Aug 22 07:34:11 1995 (/cgi-bin/imagemap.cgi): Sent CGI redirection: GET /CGI/cgi-bin/imagemap.cgi/blackbar?354,21 HTTP/1.0
+602+1: Tue Aug 22 07:34:11 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+81+6: Tue Aug 22 07:34:12 1995 (/explore.html): Sent text: GET /explore.html HTTP/1.0
+81+6: Tue Aug 22 07:34:14 1995 (/images/explore.gif): Sent binary: GET /images/explore.gif HTTP/1.0
+288+1: Tue Aug 22 07:34:14 1995 (/SDSC/Partners/vrml/software/textures.html): Sent binary: GET /SDSC/Partners/vrml/software/textures.html HTTP/1.0
+601+1: Tue Aug 22 07:34:15 1995 (/Events/vrml95/blue_dot.gif): Sent binary: GET /Events/vrml95/blue_dot.gif HTTP/1.0
+261+3: Tue Aug 22 07:34:17 1995 (/SDSC/Partners/Surfrider/culture/music/surf/surf1.wav): Sent binary: GET /SDSC/Partners/Surfrider/culture/music/surf/surf1.wav HTTP/1.0
+81+6: Tue Aug 22 07:34:19 1995 (/SDSC/Geninfo/Internet): Sent cache: GET /SDSC/Geninfo/Internet HTTP/1.0
+603+1: Tue Aug 22 07:34:22 1995 (/wow/mexico/cancun/canmap.html): Sent text: GET /wow/mexico/cancun/canmap.html HTTP/1.0
+81+6: Tue Aug 22 07:34:24 1995 (/SDSC/Geninfo/Internet/WWW): Sent cache: GET /1/SDSC/Geninfo/Internet/WWW HTTP/1.0
+551+1: Tue Aug 22 07:34:24 1995 (/wow/mexico/fone.html): Sent text: GET /wow/mexico/fone.html HTTP/1.0
+UNR bdt.ftpt.br: Tue Aug 22 07:34:37 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+602+1: Tue Aug 22 07:34:37 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+602+1: Tue Aug 22 07:34:39 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+551+1: Tue Aug 22 07:34:50 1995 (/wow/navix.html): Sent text: GET /wow/navix.html HTTP/1.0
+602+1: Tue Aug 22 07:34:52 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+603+1: Tue Aug 22 07:34:57 1995 (/wow/mexico/cancun/can_map.jpg): Sent binary: GET /wow/mexico/cancun/can_map.jpg HTTP/1.0
+543+1: Tue Aug 22 07:35:21 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+543+1: Tue Aug 22 07:35:21 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Movies
+604+1: Tue Aug 22 07:35:28 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+601+1: Tue Aug 22 07:35:30 1995 (/Events/vrml95/blue_dot.gif): Sent binary: GET /Events/vrml95/blue_dot.gif HTTP/1.0
+25+3: Tue Aug 22 07:35:33 1995 (/SDSC/Geninfo/Internet/books): Sent cache: GET /1/SDSC/Geninfo/Internet/books HTTP/1.0
+604+1: Tue Aug 22 07:35:39 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+543+1: Tue Aug 22 07:35:43 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+543+1: Tue Aug 22 07:35:43 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Movies
+605+1: Tue Aug 22 07:35:44 1995 (/MetaScience/welcome.html): Sent text: GET /MetaScience/welcome.html HTTP/1.0
+605+1: Tue Aug 22 07:35:46 1995 (/MetaScience/Images/NSFMC-SH_banner.gif): Sent binary: GET /MetaScience/Images/NSFMC-SH_banner.gif HTTP/1.0
+605+1: Tue Aug 22 07:35:47 1995 (/MetaScience/Images/Introduction_banner.gif): Sent binary: GET /MetaScience/Images/Introduction_banner.gif HTTP/1.0
+605+1: Tue Aug 22 07:35:50 1995 (/MetaScience/Images/Introduction-gray.gif): Sent binary: GET /MetaScience/Images/Introduction-gray.gif HTTP/1.0
+604+1: Tue Aug 22 07:35:51 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+605+1: Tue Aug 22 07:35:52 1995 (/MetaScience/Images/Search.gif): Sent binary: GET /MetaScience/Images/Search.gif HTTP/1.0
+605+1: Tue Aug 22 07:35:53 1995 (/MetaScience/Images/Browse.gif): Sent binary: GET /MetaScience/Images/Browse.gif HTTP/1.0
+605+1: Tue Aug 22 07:35:54 1995 (/MetaScience/Images/MetaCenter_Info.gif): Sent binary: GET /MetaScience/Images/MetaCenter_Info.gif HTTP/1.0
+25+2: Tue Aug 22 07:36:08 1995 (/SDSC/Partners/Surfrider/clrblu16.mov): Sent binary: GET /SDSC/Partners/Surfrider/clrblu16.mov HTTP/1.0
+551+1: Tue Aug 22 07:36:10 1995 (/cgi-bin/wowglimpse.cgi): Sent CGI output: GET /CGI/cgi-bin/wowglimpse.cgi/01wow?query=                          Krystal  BCancun                          &errors=0 HTTP/1.0
+601+1: Tue Aug 22 07:36:12 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+288+1: Tue Aug 22 07:36:13 1995 (/SDSC/Partners/vrml/software/util.html): Sent binary: GET /SDSC/Partners/vrml/software/util.html HTTP/1.0
+601+1: Tue Aug 22 07:36:14 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+601+1: Tue Aug 22 07:36:14 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+25+2: Tue Aug 22 07:36:14 1995 (/SDSC/Partners/Surfrider/join.htm): Sent text: GET /SDSC/Partners/Surfrider/join.htm HTTP/1.0
+25+2: Tue Aug 22 07:36:17 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/srflogo4.gif HTTP/1.0
+25+2: Tue Aug 22 07:36:17 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+25+2: Tue Aug 22 07:36:17 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/srflogo4.gif
+601+1: Tue Aug 22 07:36:18 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+601+1: Tue Aug 22 07:36:20 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+81+7: Tue Aug 22 07:36:24 1995 (/): Sent cache: GET / HTTP/1.0
+81+7: Tue Aug 22 07:36:26 1995 (/images/biglogo.gif): Sent binary: GET /images/biglogo.gif HTTP/1.0
+81+7: Tue Aug 22 07:36:26 1995 (/images/iotw.gif): Sent binary: GET /images/iotw.gif HTTP/1.0
+81+7: Tue Aug 22 07:36:26 1995 (/images/redbar.gif): Sent binary: GET /images/redbar.gif HTTP/1.0
+81+7: Tue Aug 22 07:36:27 1995 (/images/blackbar.gif): Sent binary: GET /images/blackbar.gif HTTP/1.0
+496+1: Tue Aug 22 07:36:30 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+496+1: Tue Aug 22 07:36:33 1995 (/SDSC/Partners/vrml/software/modelers.html): Sent binary: GET /SDSC/Partners/vrml/software/modelers.html HTTP/1.0
+601+1: Tue Aug 22 07:36:34 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+299+1: Tue Aug 22 07:36:39 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+601+1: Tue Aug 22 07:36:41 1995 (/SDSC/Partners/vrml/software/develop_lib-rel.html): Sent binary: GET /SDSC/Partners/vrml/software/develop_lib-rel.html HTTP/1.0
+299+1: Tue Aug 22 07:36:41 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+299+1: Tue Aug 22 07:36:41 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+299+1: Tue Aug 22 07:36:41 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+606+1: Tue Aug 22 07:36:42 1995 (/wow/situr/rad-main.html): Sent text: GET /wow/situr/rad-main.html HTTP/1.0
+25+2: Tue Aug 22 07:36:53 1995 (/SDSC/Partners/Surfrider/scene/icontac.htm): Sent text: GET /SDSC/Partners/Surfrider/scene/icontac.htm HTTP/1.0
+603+1: Tue Aug 22 07:36:59 1995 (/wow/mexico/travl/guide.html): Sent text: GET /wow/mexico/travl/guide.html HTTP/1.0
+551+1: Tue Aug 22 07:37:01 1995 (/cgi-bin/wowglimpse.cgi): Sent CGI output: GET /CGI/cgi-bin/wowglimpse.cgi/01wow?query=                          Cancun                          &errors=0 HTTP/1.0
+81+8: Tue Aug 22 07:37:03 1995 (/Services/Consult/Misc/off_site.html): Sent text: GET /Services/Consult/Misc/off_site.html HTTP/1.0
+606+1: Tue Aug 22 07:37:16 1995 (/wow/situr/rdsn-nv.jpg): Sent binary: GET /wow/situr/rdsn-nv.jpg HTTP/1.0
+81+8: Tue Aug 22 07:37:23 1995 (/): Sent cache: GET / HTTP/1.0
+81+8: Tue Aug 22 07:37:23 1995 (/): Sent cache:
+25+2: Tue Aug 22 07:37:23 1995 (): No match for selector: GET /SDSC/Partners/Surfrider/tavarua.jpg HTTP/1.0
+25+2: Tue Aug 22 07:37:23 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+25+2: Tue Aug 22 07:37:23 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/SDSC/Partners/Surfrider/tavarua.jpg
+81+8: Tue Aug 22 07:37:25 1995 (/images/biglogo.gif): Sent binary: GET /images/biglogo.gif HTTP/1.0
+81+8: Tue Aug 22 07:37:25 1995 (/images/iotw.gif): Sent binary: GET /images/iotw.gif HTTP/1.0
+81+8: Tue Aug 22 07:37:25 1995 (/images/blackbar.gif): Sent binary: GET /images/blackbar.gif HTTP/1.0
+81+8: Tue Aug 22 07:37:25 1995 (/images/redbar.gif): Sent binary: GET /images/redbar.gif HTTP/1.0
+81+8: Tue Aug 22 07:37:27 1995 (/cgi-bin/imagemap.cgi): Sent CGI redirection: GET /CGI/cgi-bin/imagemap.cgi/redbar?151,19 HTTP/1.0
+81+8: Tue Aug 22 07:37:28 1995 (/services.html): Sent text: GET /services.html HTTP/1.0
+81+8: Tue Aug 22 07:37:30 1995 (/images/logo.gif): Sent binary: GET /images/logo.gif HTTP/1.0
+607+1: Tue Aug 22 07:37:30 1995 (/SDSC/Geninfo/SDarea/sdarea.html): Sent text: GET /SDSC/Geninfo/SDarea/sdarea.html HTTP/1.0
+81+8: Tue Aug 22 07:37:30 1995 (/images/services.gif): Sent binary: GET /images/services.gif HTTP/1.0
+607+1: Tue Aug 22 07:37:31 1995 (/SDSC/Geninfo/SDarea/Images/sdareabar.GIF): Sent binary: GET /I/SDSC/Geninfo/SDarea/Images/sdareabar.GIF HTTP/1.0
+607+1: Tue Aug 22 07:37:31 1995 (/SDSC/Geninfo/SDarea/Images/sdarea.GIF): Sent binary: GET /I/SDSC/Geninfo/SDarea/Images/sdarea.GIF HTTP/1.0
+551+1: Tue Aug 22 07:37:33 1995 (/wow/mexico/city/redb.gif): Sent binary: GET /wow/mexico/city/redb.gif HTTP/1.0
+81+8: Tue Aug 22 07:37:34 1995 (/Services/Consult/consult.html): Sent text: GET /Services/Consult/consult.html HTTP/1.0
+261+3: Tue Aug 22 07:37:36 1995 (/SDSC/Partners/Surfrider/culture/gallery/main.htm): Sent text: GET /SDSC/Partners/Surfrider/culture/gallery/main.htm HTTP/1.0
+81+8: Tue Aug 22 07:37:36 1995 (/Services/Consult/Misc/cray.icon.gif): Sent binary: GET /Services/Consult/Misc/cray.icon.gif HTTP/1.0
+81+8: Tue Aug 22 07:37:36 1995 (/Services/Consult/Misc/consultb3.gif): Sent binary: GET /Services/Consult/Misc/consultb3.gif HTTP/1.0
+81+8: Tue Aug 22 07:37:36 1995 (/Services/Consult/Misc/paragon.icon.gif): Sent binary: GET /Services/Consult/Misc/paragon.icon.gif HTTP/1.0
+367+1: Tue Aug 22 07:37:38 1995 (/SDSC/Geninfo/copyright.txt): Sent text: 0/SDSC/Geninfo/copyright.txt
+81+8: Tue Aug 22 07:37:38 1995 (/Services/Consult/Misc/t3d.icon.gif): Sent binary: GET /Services/Consult/Misc/t3d.icon.gif HTTP/1.0
+81+8: Tue Aug 22 07:37:38 1995 (/Services/Consult/Misc/blueball.gif): Sent binary: GET /Services/Consult/Misc/blueball.gif HTTP/1.0
+81+8: Tue Aug 22 07:37:38 1995 (/Services/Consult/Misc/search.gif): Sent binary: GET /Services/Consult/Misc/search.gif HTTP/1.0
+81+8: Tue Aug 22 07:37:38 1995 (/Services/Consult/Misc/workstation.icon.gif): Sent binary: GET /Services/Consult/Misc/workstation.icon.gif HTTP/1.0
+608+1: Tue Aug 22 07:37:39 1995 (/IOTW/iotw.html): Sent text: GET /IOTW/iotw.html HTTP/1.0
+261+3: Tue Aug 22 07:37:39 1995 (/SDSC/Partners/Surfrider/culture/gallery/dolph1.gif): Sent binary: GET /SDSC/Partners/Surfrider/culture/gallery/dolph1.gif HTTP/1.0
+81+8: Tue Aug 22 07:37:43 1995 (/Services/Consult/Misc/off_site.html): Sent text: GET /Services/Consult/Misc/off_site.html HTTP/1.0
+607+1: Tue Aug 22 07:37:47 1995 (/SDSC/Geninfo/SDarea/parks.html): Sent text: GET /0/SDSC/Geninfo/SDarea/parks.html HTTP/1.0
+607+1: Tue Aug 22 07:37:48 1995 (/SDSC/Geninfo/SDarea/Images/parks.GIF): Sent binary: GET /I/SDSC/Geninfo/SDarea/Images/parks.GIF HTTP/1.0
+608+1: Tue Aug 22 07:37:51 1995 (/SDSC): Sent cache: GET /SDSC HTTP/1.0
+608+1: Tue Aug 22 07:37:53 1995 (/SDSC/Staff): Sent cache: GET /1/SDSC/Staff HTTP/1.0
+367+1: Tue Aug 22 07:38:00 1995 (/SC95): Sent cache: 1/SC95
+608+1: Tue Aug 22 07:38:01 1995 (/SDSC/Staff/tep/Home.html): Sent text: GET /SDSC/Staff/tep/Home.html HTTP/1.0
+608+1: Tue Aug 22 07:38:02 1995 (/SDSC/Staff/tep): Sent cache: GET /SDSC/Staff/tep/ HTTP/1.0
+261+3: Tue Aug 22 07:38:04 1995 (/SDSC/Partners/Surfrider/culture/gallery/indo/main.htm): Sent text: GET /SDSC/Partners/Surfrider/culture/gallery/indo/main.htm HTTP/1.0
+608+1: Tue Aug 22 07:38:06 1995 (/Services/Workstations.html): Sent text: GET /Services/Workstations.html HTTP/1.0
+551+1: Tue Aug 22 07:38:08 1995 (/wow/mexico/city/passngr.html): Sent text: GET /wow/mexico/city/passngr.html HTTP/1.0
+609+1: Tue Aug 22 07:38:10 1995 (/wow/mexico/cancun/canfirs.html): Sent text: GET /wow/mexico/cancun/canfirs.html HTTP/1.0
+371+1: Tue Aug 22 07:38:11 1995 (/SDSC/Partners/vrml/software/geom_trans.html): Sent binary: GET /SDSC/Partners/vrml/software/geom_trans.html HTTP/1.0
+609+1: Tue Aug 22 07:38:12 1995 (/wow/mexico/cancun/trxrt.gif): Sent binary: GET /wow/mexico/cancun/trxrt.gif HTTP/1.0
+609+1: Tue Aug 22 07:38:12 1995 (/wow/wow-mbos.gif): Sent binary: GET /wow/wow-mbos.gif HTTP/1.0
+610+1: Tue Aug 22 07:38:12 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+609+1: Tue Aug 22 07:38:12 1995 (/wow/mexico/cancun/cancun.jpg): Sent binary: GET /wow/mexico/cancun/cancun.jpg HTTP/1.0
+551+1: Tue Aug 22 07:38:13 1995 (/wow/mexico/buttons/winbard.gif): Sent binary: GET /wow/mexico/buttons/winbard.gif HTTP/1.0
+597+1: Tue Aug 22 07:38:13 1995 (/sdsc.html): Sent text: GET /sdsc.html HTTP/1.0
+610+1: Tue Aug 22 07:38:15 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+610+1: Tue Aug 22 07:38:15 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+610+1: Tue Aug 22 07:38:15 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+610+1: Tue Aug 22 07:38:15 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+25+2: Tue Aug 22 07:38:20 1995 (/SDSC/Partners/Surfrider/brown.htm): Sent text: GET /SDSC/Partners/Surfrider/brown.htm HTTP/1.0
+608+1: Tue Aug 22 07:38:21 1995 (/SDSC/Staff/gribskov/gribskov.html): Sent text: GET /SDSC/Staff/gribskov/gribskov.html HTTP/1.0
+25+2: Tue Aug 22 07:38:22 1995 (/SDSC/Partners/Surfrider/dangers.gif): Sent binary: GET /SDSC/Partners/Surfrider/dangers.gif HTTP/1.0
+597+1: Tue Aug 22 07:38:23 1995 (/images/logo.gif): Sent binary: GET /images/logo.gif HTTP/1.0
+319+2: Tue Aug 22 07:38:26 1995 (/SDSC/Geninfo/Internet/employment): Sent cache: 1/SDSC/Geninfo/Internet/employment
+610+1: Tue Aug 22 07:38:32 1995 (/SDSC/Partners/vrml/examples.html): Sent text: GET /SDSC/Partners/vrml/examples.html HTTP/1.0
+603+1: Tue Aug 22 07:38:34 1995 (/wow/mexico/resort/resort.html): Sent text: GET /wow/mexico/resort/resort.html HTTP/1.0
+610+1: Tue Aug 22 07:38:35 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+609+1: Tue Aug 22 07:38:40 1995 (/wow/mexico/cancun/cancan.html): Sent text: GET /wow/mexico/cancun/cancan.html HTTP/1.0
+25+2: Tue Aug 22 07:38:41 1995 (/SDSC/Partners/Surfrider/bstats.htm): Sent text: GET /SDSC/Partners/Surfrider/bstats.htm HTTP/1.0
+25+2: Tue Aug 22 07:38:44 1995 (/SDSC/Partners/Surfrider/img0076.gif): Sent binary: GET /SDSC/Partners/Surfrider/img0076.gif HTTP/1.0
+609+1: Tue Aug 22 07:38:52 1995 (/wow/mexico/cancun/canhome.html): Sent text: GET /wow/mexico/cancun/canhome.html HTTP/1.0
+609+1: Tue Aug 22 07:38:54 1995 (/wow/mexico/cancun/pyr.gif): Sent binary: GET /wow/mexico/cancun/pyr.gif HTTP/1.0
+609+1: Tue Aug 22 07:38:54 1995 (/wow/mexico/cancun/acan2.jpg): Sent binary: GET /wow/mexico/cancun/acan2.jpg HTTP/1.0
+551+1: Tue Aug 22 07:38:56 1995 (/wow/mexico/city/charter.html): Sent text: GET /wow/mexico/city/charter.html HTTP/1.0
+551+1: Tue Aug 22 07:38:59 1995 (/wow/wow.gif): Sent binary: GET /wow/wow.gif HTTP/1.0
+288+1: Tue Aug 22 07:39:05 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+609+1: Tue Aug 22 07:39:06 1995 (/wow/mexico/cancun/topten.html): Sent text: GET /wow/mexico/cancun/topten.html HTTP/1.0
+609+1: Tue Aug 22 07:39:14 1995 (/wow/mexico/cancun/beach.jpg): Sent binary: GET /wow/mexico/cancun/beach.jpg HTTP/1.0
+609+1: Tue Aug 22 07:39:14 1995 (/wow/mexico/cancun/bchkids.jpg): Sent binary: GET /wow/mexico/cancun/bchkids.jpg HTTP/1.0
+609+1: Tue Aug 22 07:39:14 1995 (/wow/mexico/cancun/tulum4.jpg): Sent binary: GET /wow/mexico/cancun/tulum4.jpg HTTP/1.0
+609+1: Tue Aug 22 07:39:19 1995 (/wow/mexico/cancun/topten2.html): Sent text: GET /wow/mexico/cancun/topten2.html HTTP/1.0
+551+1: Tue Aug 22 07:39:21 1995 (/wow/mexico/city/freq.html): Sent text: GET /wow/mexico/city/freq.html HTTP/1.0
+609+1: Tue Aug 22 07:39:21 1995 (/wow/mexico/cancun/beach.jpg): Sent binary: GET /wow/mexico/cancun/beach.jpg HTTP/1.0
+609+1: Tue Aug 22 07:39:21 1995 (/wow/mexico/cancun/dolphgrl.gif): Sent binary: GET /wow/mexico/cancun/dolphgrl.gif HTTP/1.0
+609+1: Tue Aug 22 07:39:24 1995 (/wow/mexico/cancun/toucan.gif): Sent binary: GET /wow/mexico/cancun/toucan.gif HTTP/1.0
+603+1: Tue Aug 22 07:39:25 1995 (/wow/mexico/cancun/playacar/playacr.html): Sent text: GET /wow/mexico/cancun/playacar/playacr.html HTTP/1.0
+609+1: Tue Aug 22 07:39:26 1995 (/wow/mexico/cancun/ruin.jpg): Sent binary: GET /wow/mexico/cancun/ruin.jpg HTTP/1.0
+611+1: Tue Aug 22 07:39:38 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+25+2: Tue Aug 22 07:39:41 1995 (/SDSC/Partners/Surfrider/bchtrp.jpg): Sent binary: GET /SDSC/Partners/Surfrider/bchtrp.jpg HTTP/1.0
+539+1: Tue Aug 22 07:39:41 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+539+1: Tue Aug 22 07:39:41 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/Fun/Stills/smog.gif
+611+1: Tue Aug 22 07:39:47 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+320+2: Tue Aug 22 07:39:59 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+320+2: Tue Aug 22 07:40:01 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+320+2: Tue Aug 22 07:40:05 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+611+1: Tue Aug 22 07:40:08 1995 (): No match for selector: GET /webfx.html HTTP/1.0
+611+1: Tue Aug 22 07:40:08 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+611+1: Tue Aug 22 07:40:08 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/webfx.html
+537+1: Tue Aug 22 07:40:10 1995 (/SDSC/Partners/vrml/software/browsers.html): Sent binary: GET /SDSC/Partners/vrml/software/browsers.html HTTP/1.0
+319+2: Tue Aug 22 07:40:13 1995 (/SDSC/Geninfo/Internet/travel): Sent cache: 1/SDSC/Geninfo/Internet/travel
+537+1: Tue Aug 22 07:40:13 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+537+1: Tue Aug 22 07:40:13 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+537+1: Tue Aug 22 07:40:13 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+319+2: Tue Aug 22 07:40:17 1995 (/SDSC/Geninfo/Internet/travel/Canada): Sent cache: 1/SDSC/Geninfo/Internet/travel/Canada
+611+1: Tue Aug 22 07:40:26 1995 (): No match for selector: GET /webfx.html HTTP/1.0
+611+1: Tue Aug 22 07:40:26 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+611+1: Tue Aug 22 07:40:26 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/webfx.html
+609+1: Tue Aug 22 07:40:27 1995 (/wow/mexico/cancun/bchkids.jpg): Sent binary: GET /wow/mexico/cancun/bchkids.jpg HTTP/1.0
+609+1: Tue Aug 22 07:40:28 1995 (/wow/mexico/cancun/food1.jpg): Sent binary: GET /wow/mexico/cancun/food1.jpg HTTP/1.0
+609+1: Tue Aug 22 07:40:28 1995 (/wow/mexico/cancun/tulum4.jpg): Sent binary: GET /wow/mexico/cancun/tulum4.jpg HTTP/1.0
+320+2: Tue Aug 22 07:40:30 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+611+1: Tue Aug 22 07:40:30 1995 (): No match for selector: GET /webfx.html HTTP/1.0
+611+1: Tue Aug 22 07:40:30 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+611+1: Tue Aug 22 07:40:30 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/webfx.html
+612+1: Tue Aug 22 07:40:32 1995 (/vrml): Sent cache: GET /vrml/ HTTP/1.0
+613+1: Tue Aug 22 07:40:32 1995 (/SDSC/Geninfo/Internet/books): Sent cache: GET /1/SDSC/Geninfo/Internet/books HTTP/1.0
+612+1: Tue Aug 22 07:40:34 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+612+1: Tue Aug 22 07:40:34 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+612+1: Tue Aug 22 07:40:34 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+609+1: Tue Aug 22 07:40:35 1995 (/wow/mexico/arch/museum.html): Sent text: GET /wow/mexico/arch/museum.html HTTP/1.0
+609+1: Tue Aug 22 07:40:36 1995 (/wow/mexico/buttons/winbard.gif): Sent binary: GET /wow/mexico/buttons/winbard.gif HTTP/1.0
+609+1: Tue Aug 22 07:40:36 1995 (/wow/mexico/city/museum.jpg): Sent binary: GET /wow/mexico/city/museum.jpg HTTP/1.0
+320+2: Tue Aug 22 07:40:37 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+606+1: Tue Aug 22 07:40:38 1995 (/wow/mexico/city/df.html): Sent text: GET /wow/mexico/city/df.html HTTP/1.0
+611+1: Tue Aug 22 07:40:39 1995 (): No match for selector: GET /webfx.html HTTP/1.0
+611+1: Tue Aug 22 07:40:39 1995 (): HTTP error: HTTP/1.0 403 Sorry, access denied or file does not exist.
+611+1: Tue Aug 22 07:40:39 1995 (): Sorry, access denied or file does not exist.: /var/spool/gn/webfx.html
+320+2: Tue Aug 22 07:40:39 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+614+1: Tue Aug 22 07:40:40 1995 (/): Sent cache:
+606+1: Tue Aug 22 07:40:41 1995 (/wow/wow-mbos.gif): Sent binary: GET /wow/wow-mbos.gif HTTP/1.0
+606+1: Tue Aug 22 07:40:41 1995 (/wow/mexico/city/redb.gif): Sent binary: GET /wow/mexico/city/redb.gif HTTP/1.0
+606+1: Tue Aug 22 07:40:41 1995 (/wow/mexico/city/mex-df.jpg): Sent binary: GET /wow/mexico/city/mex-df.jpg HTTP/1.0
+320+2: Tue Aug 22 07:40:43 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+615+1: Tue Aug 22 07:40:47 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+464+4: Tue Aug 22 07:40:49 1995 (/MetaScience/welcome.html): Sent text: GET /MetaScience/welcome.html HTTP/1.0
+616+1: Tue Aug 22 07:40:49 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+615+1: Tue Aug 22 07:40:51 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+615+1: Tue Aug 22 07:40:51 1995 (/SDSC/Partners/vrml/Images/cone.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cone.gif HTTP/1.0
+615+1: Tue Aug 22 07:40:51 1995 (/SDSC/Partners/vrml/Images/cube.gif): Sent binary: GET /SDSC/Partners/vrml/Images/cube.gif HTTP/1.0
+464+4: Tue Aug 22 07:40:51 1995 (/MetaScience/Images/Introduction_banner.gif): Sent binary: GET /MetaScience/Images/Introduction_banner.gif HTTP/1.0
+464+4: Tue Aug 22 07:40:51 1995 (/MetaScience/Images/Introduction-gray.gif): Sent binary: GET /MetaScience/Images/Introduction-gray.gif HTTP/1.0
+25+2: Tue Aug 22 07:40:51 1995 (/SDSC/Partners/Surfrider/dirty/main.htm): Sent text: GET /SDSC/Partners/Surfrider/dirty/main.htm HTTP/1.0
+615+1: Tue Aug 22 07:40:51 1995 (/SDSC/Partners/vrml/Images/vrml.banner.gif): Sent binary: GET /SDSC/Partners/vrml/Images/vrml.banner.gif HTTP/1.0
+464+4: Tue Aug 22 07:40:52 1995 (/MetaScience/Images/Browse.gif): Sent binary: GET /MetaScience/Images/Browse.gif HTTP/1.0
+464+4: Tue Aug 22 07:40:53 1995 (/MetaScience/Images/MetaCenter_Info.gif): Sent binary: GET /MetaScience/Images/MetaCenter_Info.gif HTTP/1.0
+25+2: Tue Aug 22 07:40:55 1995 (/SDSC/Partners/Surfrider/dirty/blhead.gif): Sent binary: GET /SDSC/Partners/Surfrider/dirty/blhead.gif HTTP/1.0
+464+4: Tue Aug 22 07:40:55 1995 (/MetaScience/Images/Search.gif): Sent binary: GET /MetaScience/Images/Search.gif HTTP/1.0
+609+1: Tue Aug 22 07:41:01 1995 (/wow/mexico/cancun/bchkids.jpg): Sent binary: GET /wow/mexico/cancun/bchkids.jpg HTTP/1.0
+609+1: Tue Aug 22 07:41:02 1995 (/wow/mexico/cancun/food1.jpg): Sent binary: GET /wow/mexico/cancun/food1.jpg HTTP/1.0
+609+1: Tue Aug 22 07:41:02 1995 (/wow/mexico/cancun/tulum4.jpg): Sent binary: GET /wow/mexico/cancun/tulum4.jpg HTTP/1.0
+611+1: Tue Aug 22 07:41:03 1995 (/vrml): Sent cache: GET /vrml HTTP/1.0
+615+1: Tue Aug 22 07:41:08 1995 (/SDSC/Partners/vrml/repos_software.html): Sent text: GET /SDSC/Partners/vrml/repos_software.html HTTP/1.0
+617+1: Tue Aug 22 07:41:09 1995 (/wow/mexico/city/main.html): Sent text: GET /wow/mexico/city/main.html HTTP/1.0
+609+1: Tue Aug 22 07:41:09 1995 (/wow/mexico/coln/colhome.html): Sent text: GET /wow/mexico/coln/colhome.html HTTP/1.0
+609+1: Tue Aug 22 07:41:11 1995 (/wow/mexico/coln/colmosd.gif): Sent binary: GET /wow/mexico/coln204.153.163.137: Tue Aug 22 07:41:14 1995 (/wow/mexico/maps/mexmap2d.gif): Sent binary: GET /wow/mexico/maps/mexmap2d.gif HTTP/1.0
+464+4: Tue Aug 22 07:41:17 1995 (/MetaScience/fos.html): Sent text: GET /MetaScience/fos.html HTTP/1.0
+615+1: Tue Aug 22 07:41:18 1995 (/SDSC/Partners/vrml/Images/sphere_green.gif): Sent binary: GET /SDSC/Partners/vrml/Images/sphere_green.gif HTTP/1.0
+611+1: Tue Aug 22 07:41:20 1995 (/SDSC/Partners/vrml/repos_mailing.html): Sent text: GET /SDSC/Partners/vrml/repos_mailing.html HTTP/1.0
+433+1: Tue Aug 22 07:41:23 1995 (/SDSC/Partners/vrml/Images/SDSClogo.gif): Sent binary: GET /SDSC/Partners/vrml/Images/SDSClogo.gif HTTP/1.0
+94+2: Tue Aug 22 07:41:23 1995 (/EnablingTech/Visualization/vrml/webview.html): Sent text: GET /EnablingTech/Visualization/vrml/webview.html HTTP/1.0
