@@ -55,9 +55,14 @@ public class ManejadorNodo extends Thread{
             // coleccion que vamos a pasar a través del socket como objeto serializado
             ArrayList<String> resultados = new ArrayList<>();
             // imprime los valores obtenidos
-            while ((cadena = salida.readLine()) != null) {
-               resultados.add(cadena);
+            if ((cadena = salida.readLine()) != null) {
+                while ((cadena = salida.readLine()) != null) {
+                   resultados.add(cadena);
+                }
+            } else {
+                resultados.add("No se encontraron coincidencias en el servidor "+this.s.getLocalAddress().toString()+":"+String.valueOf(this.s.getLocalPort()));
             }
+            
             
             // Creamos un flujo de objetos con el que vamos a pasar el Arraylist
             ObjectOutputStream oos = new ObjectOutputStream(this.s.getOutputStream());

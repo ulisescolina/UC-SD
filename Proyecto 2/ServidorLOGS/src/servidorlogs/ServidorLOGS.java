@@ -5,6 +5,8 @@
  */
 package servidorlogs;
 
+import java.util.Scanner;
+
 /**
  *
  * @author netbeans
@@ -16,7 +18,15 @@ public class ServidorLOGS {
      */
     public static void main(String[] args) 
     {
-        Nodo n = new Nodo(Integer.parseInt(args[0]), args[1]);
+        System.out.print("Ingrese puerto en el cual va a escuchar el servidor: ");
+        Scanner puerto = new Scanner(System.in);
+        String scPuerto = puerto.nextLine();
+        
+        System.out.print("Ingrese el id del servidor: ");
+        Scanner id = new Scanner(System.in);
+        String scId = id.nextLine();
+        
+        Nodo n = new Nodo(Integer.parseInt(scPuerto), scId);
         n.iniciar();
     }
     

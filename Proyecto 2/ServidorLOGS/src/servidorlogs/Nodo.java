@@ -30,7 +30,9 @@ public class Nodo {
         try {
             ServerSocket ss = new ServerSocket(this.puerto);
             while (true) {
+                System.out.println("Esperando conexion entrante...");
                 Socket s = ss.accept();
+                System.out.println("Conexion recibida, creando hilo para tratar solicitud...");
                 ManejadorNodo mn = new ManejadorNodo(s, nodo);
                 mn.start();
             }
