@@ -15,7 +15,8 @@ public class UranoB {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Bloques bloque = new Bloques();
+        bloque.iniciar();
     }
     
 }
