@@ -132,7 +132,8 @@ public class Proceso implements Serializable{
             this.enviarProceso(hmp, this.ipIntroductor, this.puertoIntroductor);
             DatagramSocket ds = new DatagramSocket(this.puertoPropio);
             this.esperarMensaje(ds);
-            System.out.println(this.procesos);
+            System.out.println("SA, Procesos: "+this.procesos);
+            System.out.println("SA, Vecinos: "+this.vecinos);
         } catch (SocketException ex) {
             Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -152,6 +153,7 @@ public class Proceso implements Serializable{
             try (ObjectInputStream is = new ObjectInputStream(in)) {
                 this.setProcesos((TreeMap<Integer, Proceso>) is.readObject());
             }
+            this.actualizarVecinos();
         } catch (IOException ex) {
             Logger.getLogger(Escuchador.class.getName()).log(Level.SEVERE, null, ex);
         } catch (ClassNotFoundException ex) {
@@ -185,13 +187,13 @@ public class Proceso implements Serializable{
         Proceso pivot = this;
         TreeMap<Integer, Proceso> vAux = new TreeMap<>();
         for (int i = 0 ; i < Proceso.CANTIDAD_PREDECESORES; i++) { 
-            if (this.procesos.lowerEntry(pivot.id) != null && this.procesos.lowerEntry(pivot.id).getValue() != this) {
+            if (this.procesos.lowerEntry(pivot.id) != null && this.procesos.lowerEntry(pivot.id).getValue().getId() != this.getId()) {
                 pivot = this.procesos.lowerEntry(pivot.id).getValue();
             } else {
                 pivot = this.procesos.lastEntry().getValue();    
             }
             // Voy a ir creando una lista auxiliar con los predecesores
-            if (pivot != this) { // Consulto si el pivot no es el proceso que esta actualizando los vecinos, de otra manera este proceso se agrega como vecino de sí mismo
+            if (pivot.getId() != this.id) { // Consulto si el pivot no es el proceso que esta actualizando los vecinos, de otra manera este proceso se agrega como vecino de sí mismo
                 vAux.put(pivot.id, pivot);
             }
         }
@@ -204,7 +206,7 @@ public class Proceso implements Serializable{
                 pivot = this.procesos.firstEntry().getValue();    
             }
             // Voy a ir creando una lista auxiliar con los sucecesores
-            if (pivot != this) {
+            if (pivot.getId() != this.id) {
                 vAux.put(pivot.id, pivot);
             }
         }
@@ -327,5 +329,35 @@ public class Proceso implements Serializable{
     private synchronized void setTemporizadores(TreeMap<Integer, Long> tAux) {
         this.temporizadores = tAux;
     }
-
+    
+    public String imprimirProcesos(){
+        String procesos = "";
+        Iterator<Entry<Integer, Proceso>> it = this.procesos.entrySet().iterator();
+        while (it.hasNext()) {
+            Proceso p = it.next().getValue();
+            procesos += "ID: "+p.getId()+", Tipo: "+p.getTipoProceso()+", IP:PUERTO: "+p.getIpPropia()+":"+p.getPuertoPropio()+"\n";
+        }
+        return procesos;
+    }
+    
+    public String imprimirVecinos(){
+        String vecinos = "";
+        Iterator<Entry<Integer, Proceso>> it = this.vecinos.entrySet().iterator();
+        
+        while (it.hasNext()) {
+            Proceso p = it.next().getValue();
+            vecinos += "ID: "+p.getId()+", Tipo: "+p.getTipoProceso()+", IP:PUERTO: "+p.getIpPropia()+":"+p.getPuertoPropio()+"\n";
+        }
+        return vecinos;
+    }
+    
+    public String imprimirTemporizadores(){
+        String temporizadores = "";
+        Iterator<Entry<Integer, Long>> it = this.temporizadores.entrySet().iterator();
+        
+        while (it.hasNext()) {
+            temporizadores += "ID: "+it.next().getKey()+", Valor: "+it.next().getValue()+"\n";
+        }
+        return temporizadores;
+    }
 }
