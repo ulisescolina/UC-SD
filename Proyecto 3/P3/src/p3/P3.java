@@ -15,7 +15,7 @@ public class P3 {
     private static Proceso p;
     public static void main(String[] args) {
         boolean seguir = true;
-        Scanner sc = new Scanner(System.in);
+        
         if (args.length != 2 && args.length != 4) {
             System.err.println("La cantidad de argumentos es incorrecta.\nSe aceptan:\n\t- 2 (dos) argumentos para un proceso introductor y,\n\t- 4 (cuatro) argumentos para un proceso simple");
         } else if (args.length == 2) {
@@ -44,31 +44,7 @@ public class P3 {
         Menu m = new Menu(p);
         Menu.limpiarPantalla();
         while (seguir) {
-            String opcion = "";
             m.imprimir();
-            System.out.print("Ingrese una de las opciones: ");
-            opcion = sc.next();
-            switch(opcion.toLowerCase()){
-                case "ayuda":
-                    Menu.limpiarPantalla();
-                    m.imprimirAyuda();
-                    break;
-                case "vecinos":
-                    Menu.limpiarPantalla();
-                    System.out.println(p.imprimirVecinos()+"\n");
-                    break;
-                case "procesos":
-                    Menu.limpiarPantalla();
-                    System.out.println(p.imprimirProcesos()+"\n");
-                    break;
-                case "temporizadores":
-                    Menu.limpiarPantalla();
-                    System.out.println(p.imprimirTemporizadores()+"\n");
-                    break;
-                default:
-                    System.out.println("Esta opcion no esta disponible.\n");
-                
-            }
         }
     }
     

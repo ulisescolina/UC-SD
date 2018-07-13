@@ -5,6 +5,8 @@
  */
 package p3;
 
+import java.util.Scanner;
+
 /**
  *
  * @author urc
@@ -19,8 +21,31 @@ public class Menu {
     }
     
     public void imprimir() {
-        
+        Scanner sc = new Scanner(System.in);
         System.out.println(Mensajes.MENU);
+        String opcion = "";
+            System.out.print("Ingrese una de las opciones: ");
+            opcion = sc.next();
+            switch(opcion.toLowerCase()){
+                case "ayuda":
+                    Menu.limpiarPantalla();
+                    this.imprimirAyuda();
+                    break;
+                case "vecinos":
+                    Menu.limpiarPantalla();
+                    System.out.println(p.imprimirVecinos()+"\n");
+                    break;
+                case "procesos":
+                    Menu.limpiarPantalla();
+                    System.out.println(p.imprimirProcesos()+"\n");
+                    break;
+                case "limpiar":
+                    Menu.limpiarPantalla();
+                    break;
+                default:
+                    System.out.println("Esta opcion no esta disponible.\n");
+                
+            }
     }
     
     public void imprimirAyuda(){

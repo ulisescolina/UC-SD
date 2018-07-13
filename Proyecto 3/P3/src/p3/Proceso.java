@@ -350,14 +350,4 @@ public class Proceso implements Serializable{
         }
         return vecinos;
     }
-    
-    public String imprimirTemporizadores(){
-        String temporizadores = "";
-        Iterator<Entry<Integer, Long>> it = this.temporizadores.entrySet().iterator();
-        
-        while (it.hasNext()) {
-            temporizadores += "ID: "+it.next().getKey()+", Valor: "+it.next().getValue()+"\n";
-        }
-        return temporizadores;
-    }
 }
