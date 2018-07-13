@@ -51,15 +51,23 @@ public class ManejadorMensaje extends Thread{
                     this.p.actualizarVecinos();
                     this.comunicarEstadoProcesoVecinos(p, "IN");
                 }
-                System.out.println("Procesos: "+this.p.getProcesos());
-                System.out.println("Vecinos: "+this.p.getVecinos());
             } else if (hmp.containsKey("EXIT")) {
                 
             } else if (hmp.containsKey("DEATH")) {
-                
+                Proceso p = hmp.get("DEATH");
+                // Lo quito de la tabla de procesos
+                this.p.quitarProceso(p);
+                // Lo quito de la tabla de vecinos
+                this.p.quitarVecino(p);
+                // Actualizo la tabla de vecinos
+                this.p.actualizarVecinos();
+                // Comunico a los vecinos restantes que se ha muerto un proceso
+                this.comunicarEstadoProcesoVecinos(p, "DEATH");
             } else if (hmp.containsKey("LIVE")) {
+                // Obtengo el proceso que viene en el mensaje
                 Proceso p = hmp.get("LIVE");
-//                System.out.println("Live: "+p.getId());
+                // renuevo el temporizador asociado a este proceso
+                this.p.setTemporizadorProceso(p.getId(), System.currentTimeMillis());
             }
         } catch (IOException ex) {
             Logger.getLogger(ManejadorMensaje.class.getName()).log(Level.SEVERE, null, ex);

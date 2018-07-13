@@ -23,10 +23,10 @@ public class P3 {
             Proceso i = new Proceso(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
             Escuchador ei = new Escuchador(i);
             ei.start();
-//            Fallador fi = new Fallador(i);
-//            fi.start();
             MarcaPaso mpi = new MarcaPaso(i);
             mpi.start();
+            Fallador fi = new Fallador(i);
+            fi.start();
             p = i;
         } else if (args.length == 4) {
             // Crear un simple
@@ -34,10 +34,10 @@ public class P3 {
             s.solicitarAcceso();
             Escuchador es = new Escuchador(s);
             es.start();
-//            Fallador fs = new Fallador(s);
-//            fs.start();
             MarcaPaso mps = new MarcaPaso(s);
             mps.start();
+            Fallador fs = new Fallador(s);
+            fs.start();
             p = s;
         }
         

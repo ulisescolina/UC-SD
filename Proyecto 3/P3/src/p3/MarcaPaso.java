@@ -33,7 +33,6 @@ public class MarcaPaso extends Thread{
     @Override
     public void run() {
         try {
-            Thread.sleep(1000);
             while (true) {
                     this.comunicarEstadoProcesoVecinos(this.p);
                     Thread.sleep(500);

@@ -33,10 +33,10 @@ public class Fallador extends Thread{
     @Override
     public void run(){
         try {
-            Thread.sleep(1000);
+//            Thread.sleep(1000);
             while (true) {
                 this.chkProcesosActivos();
-                Thread.sleep(this.p.getToleranciaVidaProceso());
+                Thread.sleep(1000);
             }
         } catch (InterruptedException ex) {
             Logger.getLogger(Fallador.class.getName()).log(Level.SEVERE, null, ex);
@@ -52,7 +52,8 @@ public class Fallador extends Thread{
                 long tVecino = this.p.getTemporizadores().get(vecino.getId());
                 // Se obtiene la hora del SO
                 long tSistema = System.currentTimeMillis();
-                if (tSistema - tVecino > this.p.getToleranciaVidaProceso()) {
+                long diff = tSistema - tVecino;
+                if (diff > this.p.getToleranciaVidaProceso()+500) {
                     // Lo quito de la tabla de procesos
                     this.p.quitarProceso(vecino);
                     // Lo quito de la tabla de vecinos
@@ -61,6 +62,7 @@ public class Fallador extends Thread{
                     this.p.actualizarVecinos();
                     // Comunico a los vecinos restantes que se ha muerto un proceso
                     this.comunicarMuerteProceso(vecino);
+                    System.err.println("EL PROCESO "+vecino.getId()+" FALLO, tS-tV = "+diff+"\n");
                 }
             }
         }

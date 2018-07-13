@@ -35,7 +35,7 @@ public class Proceso implements Serializable{
     /**
      * Tiempo en milisegundos que el hilo que controla los latidos va a tolerar para determinar que un proceso fallo
      */
-    private static final long TOLERANCIA_VIDA_PROCESO = 2000;
+    private static final long TOLERANCIA_VIDA_PROCESO = 3000;
     private int id;
     private TipoProceso tp;
     private Inet4Address ipPropia;
@@ -132,8 +132,6 @@ public class Proceso implements Serializable{
             this.enviarProceso(hmp, this.ipIntroductor, this.puertoIntroductor);
             DatagramSocket ds = new DatagramSocket(this.puertoPropio);
             this.esperarMensaje(ds);
-            System.out.println("SA, Procesos: "+this.procesos);
-            System.out.println("SA, Vecinos: "+this.vecinos);
         } catch (SocketException ex) {
             Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
         }
