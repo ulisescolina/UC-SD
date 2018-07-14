@@ -19,6 +19,7 @@ import java.net.SocketException;
 import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 import java.util.logging.Level;
@@ -93,7 +94,7 @@ public class Proceso implements Serializable{
         }
     }
     
-    public void enviarProceso(HashMap<String, Proceso> hmp, InetAddress ip, int puerto){
+    public synchronized void enviarProceso(HashMap<String, Proceso> hmp, InetAddress ip, int puerto){
         DatagramSocket ds = null;
         ObjectOutputStream os = null;
         try {
@@ -229,48 +230,48 @@ public class Proceso implements Serializable{
     
     // Getter y Setter
 
-    public int getId() {
+    public synchronized int getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public synchronized void setId(int id) {
         this.id = id;
     }
 
-    public Inet4Address getIpPropia() {
+    public synchronized Inet4Address getIpPropia() {
         return ipPropia;
     }
 
-    public void setIpPropia(Inet4Address ipPropia) {
+    public synchronized void setIpPropia(Inet4Address ipPropia) {
         this.ipPropia = ipPropia;
     }
 
-    public int getPuertoPropio() {
+    public synchronized int getPuertoPropio() {
         return puertoPropio;
     }
 
-    public void setPuertoPropio(int puertoPropio) {
+    public synchronized void setPuertoPropio(int puertoPropio) {
         this.puertoPropio = puertoPropio;
     }
 
-    public Inet4Address getIpIntroductor() {
+    public synchronized Inet4Address getIpIntroductor() {
         return ipIntroductor;
     }
 
-    public void setIpIntroductor(Inet4Address ipIntroductor) {
+    public synchronized void setIpIntroductor(Inet4Address ipIntroductor) {
         this.ipIntroductor = ipIntroductor;
     }
 
-    public int getPuertoIntroductor() {
+    public synchronized int getPuertoIntroductor() {
         return puertoIntroductor;
     }
 
-    public void setPuertoIntroductor(int puertoIntroductor) {
+    public synchronized void setPuertoIntroductor(int puertoIntroductor) {
         this.puertoIntroductor = puertoIntroductor;
     }
 
-    public TreeMap<Integer, Proceso> getProcesos() {
-        return procesos;
+    public synchronized TreeMap<Integer, Proceso> getProcesos() {
+        return new TreeMap<>(this.procesos);
     }
 
     public synchronized void setProcesos(TreeMap<Integer, Proceso> procesos) {
@@ -281,14 +282,22 @@ public class Proceso implements Serializable{
         this.procesos.put(p.getId(), p);
     }
     
+    public synchronized void agregarProceso(Map<Integer, Proceso> procesos){
+        this.procesos.putAll(procesos);        
+    }
+    
     public synchronized void quitarProceso(Proceso p) {
         if (this.procesos.containsKey(p.id)) {
             this.procesos.remove(p.id);
         }
     }
     
-    public TreeMap<Integer, Proceso> getVecinos() {
-        return vecinos;
+    public synchronized void quitarProceso(Map<Integer, Proceso> procesos) {
+        Map<Integer, Proceso> aux = this.procesos;
+    }
+    
+    public synchronized TreeMap<Integer, Proceso> getVecinos() {
+        return new TreeMap<>(this.vecinos);
     }
 
     public synchronized void setVecinos(TreeMap<Integer, Proceso> vecinos) {
@@ -305,12 +314,12 @@ public class Proceso implements Serializable{
         }
     }
 
-    public TipoProceso getTipoProceso() {
+    public synchronized TipoProceso getTipoProceso() {
         return this.tp;
     }
 
-    public TreeMap<Integer, Long> getTemporizadores() {
-        return temporizadores;
+    public synchronized TreeMap<Integer, Long> getTemporizadores() {
+        return new TreeMap<>(this.temporizadores);
     }
 
     public synchronized void setTemporizadorProceso(int id, long t) {
@@ -320,7 +329,7 @@ public class Proceso implements Serializable{
         this.temporizadores.put(id, t);
     }
     
-    public long getToleranciaVidaProceso(){
+    public synchronized long getToleranciaVidaProceso(){
         return Proceso.TOLERANCIA_VIDA_PROCESO;
     }
 
@@ -328,7 +337,7 @@ public class Proceso implements Serializable{
         this.temporizadores = tAux;
     }
     
-    public String imprimirProcesos(){
+    public synchronized String imprimirProcesos(){
         String procesos = "";
         Iterator<Entry<Integer, Proceso>> it = this.procesos.entrySet().iterator();
         while (it.hasNext()) {
@@ -338,7 +347,7 @@ public class Proceso implements Serializable{
         return procesos;
     }
     
-    public String imprimirVecinos(){
+    public synchronized String imprimirVecinos(){
         String vecinos = "";
         Iterator<Entry<Integer, Proceso>> it = this.vecinos.entrySet().iterator();
         

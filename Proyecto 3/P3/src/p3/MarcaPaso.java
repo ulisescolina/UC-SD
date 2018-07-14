@@ -59,7 +59,7 @@ public class MarcaPaso extends Thread{
         }
     }
     
-    public void enviarProceso(HashMap<String, Proceso> hmp, InetAddress ip, int puerto){
+    public synchronized void enviarProceso(HashMap<String, Proceso> hmp, InetAddress ip, int puerto){
         DatagramSocket ds = null;
         ObjectOutputStream os = null;
         try {
@@ -67,6 +67,7 @@ public class MarcaPaso extends Thread{
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             os = new ObjectOutputStream(outputStream);
             os.writeObject(hmp);
+            os.flush();
             byte[] data = outputStream.toByteArray();
             DatagramPacket sendPacket = new DatagramPacket(data, data.length, ip, puerto);
             ds.send(sendPacket);

@@ -52,7 +52,7 @@ public class ManejadorMensaje extends Thread{
                     this.comunicarEstadoProcesoVecinos(p, "IN");
                 }
             } else if (hmp.containsKey("EXIT")) {
-                
+                // Tratar la salida ordenada
             } else if (hmp.containsKey("DEATH")) {
                 Proceso p = hmp.get("DEATH");
                 // Lo quito de la tabla de procesos
@@ -103,7 +103,7 @@ public class ManejadorMensaje extends Thread{
         } 
     }
 
-    public void enviarProceso(HashMap<String, Proceso> hmp, InetAddress ip, int puerto){
+    public synchronized void enviarProceso(HashMap<String, Proceso> hmp, InetAddress ip, int puerto){
 //        DatagramSocket ds = null;
 //        try {
 //            ds = new DatagramSocket();

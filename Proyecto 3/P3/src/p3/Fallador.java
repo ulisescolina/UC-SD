@@ -44,12 +44,15 @@ public class Fallador extends Thread{
     }
 
     private void chkProcesosActivos() {
+        long tVecino = 0;
         if (!this.p.getVecinos().isEmpty() && !this.p.getTemporizadores().isEmpty()) {
             Iterator<Entry<Integer, Proceso>> vecinos = this.p.getVecinos().entrySet().iterator();
             while (vecinos.hasNext()) {
                 Proceso vecino = vecinos.next().getValue();
                 // Se recupera el temporizador del proceso en cuestion
-                long tVecino = this.p.getTemporizadores().get(vecino.getId());
+                if (this.p.getTemporizadores().containsKey(vecino.getId())) {
+                    tVecino = this.p.getTemporizadores().get(vecino.getId());
+                }
                 // Se obtiene la hora del SO
                 long tSistema = System.currentTimeMillis();
                 long diff = tSistema - tVecino;
@@ -83,7 +86,7 @@ public class Fallador extends Thread{
         }
     }
     
-    public void enviarProceso(HashMap<String, Proceso> hmp, InetAddress ip, int puerto){
+    public synchronized void enviarProceso(HashMap<String, Proceso> hmp, InetAddress ip, int puerto){
         DatagramSocket ds = null;
         try {
             ds = new DatagramSocket();
