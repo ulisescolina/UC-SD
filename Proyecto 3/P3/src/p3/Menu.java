@@ -39,6 +39,9 @@ public class Menu {
                     Menu.limpiarPantalla();
                     System.out.println(p.imprimirProcesos()+"\n");
                     break;
+                case "salir":
+                    p.comunicarEstadoProcesoVecinos(p, "EXIT");
+                    System.exit(0);
                 case "limpiar":
                     Menu.limpiarPantalla();
                     break;

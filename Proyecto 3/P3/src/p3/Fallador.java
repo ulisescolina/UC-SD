@@ -56,7 +56,12 @@ public class Fallador extends Thread{
                 // Se obtiene la hora del SO
                 long tSistema = System.currentTimeMillis();
                 long diff = tSistema - tVecino;
-                if (diff > this.p.getToleranciaVidaProceso()+500) {
+                /**
+                 * Si el proceso esta sin "renovacion" de su temporizador la
+                 * cantidad de tiempo que representa la tolerancia de vida del 
+                 * proceso mas 500 milisegundos de margen de error
+                 */
+                if (diff > this.p.getToleranciaVidaProceso()+500) { 
                     // Lo quito de la tabla de procesos
                     this.p.quitarProceso(vecino);
                     // Lo quito de la tabla de vecinos

@@ -227,6 +227,21 @@ public class Proceso implements Serializable{
         this.setTemporizadores(tAux);
     }
     
+    /**
+     * Envia a los vecinos un mensaje con el Proceso y la accion a ser realizado sobre el mismo
+     * @param p proceso que se envia a los vecinos
+     * @param e indica que tipo de mensaje será enviado a los vecinos (IN, EXIT, DEATH, LIVE)
+     */
+    public void comunicarEstadoProcesoVecinos(Proceso p, String e){
+        HashMap<String, Proceso> mensaje = new HashMap<>();
+        Iterator<Entry<Integer, Proceso>> it = this.getVecinos().entrySet().iterator();
+        // Armar mensaje a ser enviado
+        mensaje.put(e, p);
+        while (it.hasNext()) {
+            Proceso vecino = it.next().getValue();
+            this.enviarProceso(mensaje, vecino.getIpPropia(), vecino.getPuertoPropio());
+        }
+    }
     
     // Getter y Setter
 

@@ -52,17 +52,12 @@ public class ManejadorMensaje extends Thread{
                     this.comunicarEstadoProcesoVecinos(p, "IN");
                 }
             } else if (hmp.containsKey("EXIT")) {
-                // Tratar la salida ordenada
+                Proceso p = hmp.get("EXIT");
+                quitarProcesoTabla(this.p,p,"EXIT");
+                System.out.println("El proceso "+p.getId()+" salio del anillo.\n");
             } else if (hmp.containsKey("DEATH")) {
                 Proceso p = hmp.get("DEATH");
-                // Lo quito de la tabla de procesos
-                this.p.quitarProceso(p);
-                // Lo quito de la tabla de vecinos
-                this.p.quitarVecino(p);
-                // Actualizo la tabla de vecinos
-                this.p.actualizarVecinos();
-                // Comunico a los vecinos restantes que se ha muerto un proceso
-                this.comunicarEstadoProcesoVecinos(p, "DEATH");
+                quitarProcesoTabla(this.p,p,"DEATH");
             } else if (hmp.containsKey("LIVE")) {
                 // Obtengo el proceso que viene en el mensaje
                 Proceso p = hmp.get("LIVE");
@@ -149,7 +144,7 @@ public class ManejadorMensaje extends Thread{
     }
     
     /**
-     * Envia a los vecinos un nuevo Proceso a ser agregado a la lista de procesos
+     * Envia a los vecinos un mensaje con el Proceso y la accion a ser realizado sobre el mismo
      * @param p proceso que se envia a los vecinos
      * @param e indica que tipo de mensaje será enviado a los vecinos (IN, EXIT, DEATH, LIVE)
      */
@@ -162,5 +157,22 @@ public class ManejadorMensaje extends Thread{
             Proceso vecino = it.next().getValue();
             this.enviarProceso(mensaje, vecino.getIpPropia(), vecino.getPuertoPropio());
         }
+    }
+    
+    /**
+     * Quita el un proceso de la tabla de procesos, tabla de vecinos, de otro proceso
+     * @param tablaProceso proceso que posee la tabla de procesos, tabla de vecinos, de la cual el proceso se debe remover.
+     * @param ProcAQuitar proceso que se debe quitar de la tabla de procesos y la tabla de vecinos.
+     * @param motivo motivo por el cual se quita el proceso de las tablas
+     */
+    private void quitarProcesoTabla(Proceso tablaProceso, Proceso ProcAQuitar, String motivo){
+        // Lo quito de la tabla de procesos
+        tablaProceso.quitarProceso(ProcAQuitar);
+        // Lo quito de la tabla de vecinos
+        tablaProceso.quitarVecino(ProcAQuitar);
+        // Actualizo la tabla de vecinos
+        tablaProceso.actualizarVecinos();
+        // Comunico a los vecinos restantes que se ha muerto un proceso
+        comunicarEstadoProcesoVecinos(p, motivo);
     }
 }
