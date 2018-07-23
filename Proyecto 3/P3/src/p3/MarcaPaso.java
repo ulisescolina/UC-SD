@@ -54,7 +54,10 @@ public class MarcaPaso extends Thread{
             mensaje.put("LIVE", p);
             while (it.hasNext()) {
                 Proceso vecino = it.next().getValue();
-                this.enviarProceso(mensaje, vecino.getIpPropia(), vecino.getPuertoPropio());
+                synchronized (mensaje) {
+                    this.enviarProceso(mensaje, vecino.getIpPropia(), vecino.getPuertoPropio());
+                }
+                // System.out.println("Enviando mensaje: "+ mensaje+", al Proceso: "+vecino);
             }
         }
     }

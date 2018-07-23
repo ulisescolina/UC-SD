@@ -53,8 +53,10 @@ public class ManejadorMensaje extends Thread{
                 }
             } else if (hmp.containsKey("EXIT")) {
                 Proceso p = hmp.get("EXIT");
-                quitarProcesoTabla(this.p,p,"EXIT");
-                System.out.println("El proceso "+p.getId()+" salio del anillo.\n");
+                if (this.p.getProcesos().containsKey(p.getId())) {
+                    quitarProcesoTabla(this.p,p,"EXIT");
+                    System.out.println("El proceso "+p.getId()+" salio del anillo.\n");
+                }
             } else if (hmp.containsKey("DEATH")) {
                 Proceso p = hmp.get("DEATH");
                 quitarProcesoTabla(this.p,p,"DEATH");
@@ -99,24 +101,6 @@ public class ManejadorMensaje extends Thread{
     }
 
     public synchronized void enviarProceso(HashMap<String, Proceso> hmp, InetAddress ip, int puerto){
-//        DatagramSocket ds = null;
-//        try {
-//            ds = new DatagramSocket();
-//            ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-//            ObjectOutputStream os = new ObjectOutputStream(outputStream);
-//            os.writeObject(hmp);
-//            byte[] data = outputStream.toByteArray();
-//            DatagramPacket sendPacket = new DatagramPacket(data, data.length, ip, puerto);
-//            ds.send(sendPacket);
-//            ds.close();
-//            os.close();
-//        } catch (SocketException ex) {
-//            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
-//        } catch (UnknownHostException ex) {
-//            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
-//        } catch (IOException ex) {
-//            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
-//        }
         DatagramSocket ds = null;
         ObjectOutputStream os = null;
         try {
@@ -155,7 +139,9 @@ public class ManejadorMensaje extends Thread{
         mensaje.put(e, p);
         while (it.hasNext()) {
             Proceso vecino = it.next().getValue();
-            this.enviarProceso(mensaje, vecino.getIpPropia(), vecino.getPuertoPropio());
+            synchronized (mensaje) {
+                    this.enviarProceso(mensaje, vecino.getIpPropia(), vecino.getPuertoPropio());
+            }
         }
     }
     
@@ -169,10 +155,10 @@ public class ManejadorMensaje extends Thread{
         // Lo quito de la tabla de procesos
         tablaProceso.quitarProceso(ProcAQuitar);
         // Lo quito de la tabla de vecinos
-        tablaProceso.quitarVecino(ProcAQuitar);
+        // tablaProceso.quitarVecino(ProcAQuitar);
         // Actualizo la tabla de vecinos
         tablaProceso.actualizarVecinos();
         // Comunico a los vecinos restantes que se ha muerto un proceso
-        comunicarEstadoProcesoVecinos(p, motivo);
+        comunicarEstadoProcesoVecinos(ProcAQuitar, motivo);
     }
 }

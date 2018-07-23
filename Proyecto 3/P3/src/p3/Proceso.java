@@ -130,6 +130,8 @@ public class Proceso implements Serializable{
         try {
             HashMap<String, Proceso> hmp = new HashMap<>();
             hmp.put("IN", this);
+            // Este no tiene el bloque sincronizado dado a que solo se lo llama una vez
+            // por proceso.
             this.enviarProceso(hmp, this.ipIntroductor, this.puertoIntroductor);
             DatagramSocket ds = new DatagramSocket(this.puertoPropio);
             this.esperarMensaje(ds);
@@ -239,7 +241,9 @@ public class Proceso implements Serializable{
         mensaje.put(e, p);
         while (it.hasNext()) {
             Proceso vecino = it.next().getValue();
-            this.enviarProceso(mensaje, vecino.getIpPropia(), vecino.getPuertoPropio());
+            synchronized (mensaje) {
+                    this.enviarProceso(mensaje, vecino.getIpPropia(), vecino.getPuertoPropio());
+            }
         }
     }
     
