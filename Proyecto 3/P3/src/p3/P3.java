@@ -18,6 +18,7 @@ public class P3 {
         
         if (args.length != 2 && args.length != 4) {
             System.err.println("La cantidad de argumentos es incorrecta.\nSe aceptan:\n\t- 2 (dos) argumentos para un proceso introductor y,\n\t- 4 (cuatro) argumentos para un proceso simple");
+            return;
         } else if (args.length == 2) {
             // Crear un introductor
             Proceso i = new Proceso(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
