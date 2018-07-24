@@ -39,7 +39,7 @@ public class Fallador extends Thread{
                 Thread.sleep(1000);
             }
         } catch (InterruptedException ex) {
-            Logger.getLogger(Fallador.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "El hilo fallador para el proceso {0} estaba ocupado y fue interrumpido.", this.p.getId());
         }
     }
 
@@ -70,6 +70,7 @@ public class Fallador extends Thread{
                     this.p.actualizarVecinos();
                     // Comunico a los vecinos restantes que se ha muerto un proceso
                     this.comunicarMuerteProceso(vecino);
+                    P3.getLog().log(Level.SEVERE, "Se recibio el comunicado de que el proceso {0} ha muerto.", vecino.getId());
                     System.err.println("EL PROCESO "+vecino.getId()+" FALLO, tS-tV = "+diff+"\n");
                 }
             }

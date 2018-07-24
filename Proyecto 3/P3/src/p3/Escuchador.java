@@ -35,7 +35,7 @@ public class Escuchador extends Thread{
                 this.esperarMensaje(dSocket);
             }
         } catch (SocketException ex) {
-            Logger.getLogger(Escuchador.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "Hubieron problemas de conexion con el socket.");
         } finally {
             dSocket.close();
         }       

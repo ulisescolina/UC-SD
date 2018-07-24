@@ -64,7 +64,7 @@ public class Proceso implements Serializable{
             this.ipPropia = (Inet4Address) Inet4Address.getLocalHost();
             this.puertoPropio = puerto;
         } catch (UnknownHostException ex) {
-            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "No se pudo determinar la direccion IP de algun host.");
         }
         this.agregarProceso(this);
     }
@@ -90,7 +90,7 @@ public class Proceso implements Serializable{
             this.ipIntroductor = (Inet4Address) Inet4Address.getByName(ipintroductor);
             this.puertoIntroductor = puertointroductor;
         } catch (UnknownHostException ex) {
-            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "No se pudo determinar la direccion IP de algun host.");
         }
     }
     
@@ -106,11 +106,11 @@ public class Proceso implements Serializable{
             DatagramPacket sendPacket = new DatagramPacket(data, data.length, ip, puerto);
             ds.send(sendPacket);
         } catch (SocketException ex) {
-            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "Error creando o accediendo a un socket.");
         } catch (UnknownHostException ex) {
-            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "No se pudo determinar la direccion IP de algun host.");
         } catch (IOException ex) {
-            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "Ha ocurrido un error de Entrada/Salida.");
         } finally {
             try {
                 ds.close();
@@ -136,7 +136,7 @@ public class Proceso implements Serializable{
             DatagramSocket ds = new DatagramSocket(this.puertoPropio);
             this.esperarMensaje(ds);
         } catch (SocketException ex) {
-            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "Error creando o accediendo a un socket.");
         }
     }
     
@@ -156,9 +156,9 @@ public class Proceso implements Serializable{
             }
             this.actualizarVecinos();
         } catch (IOException ex) {
-            Logger.getLogger(Escuchador.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "Ha ocurrido un error de Entrada/Salida.");
         } catch (ClassNotFoundException ex) {
-            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "No se ha encontrado la referencia a una clase especificada.");
         } finally {
             dSocket.close();
         }
@@ -213,9 +213,14 @@ public class Proceso implements Serializable{
         }
         // seteo la lista auxiliar con sucesores y predecesores como la nueva lista de vecinos
         this.setVecinos(vAux);
-        if (this.temporizadores.isEmpty()) {
+        /**
+         * Voy a comentar el if que sigue por el siguiente motivo:
+         * - la primera vez que un proceso ingresa al anillo y no tiene inicializados sus temporizadores
+         *   este if permitiria que los tenga, pero una vez los mismos cambien no se va 
+         */
+//        if (this.temporizadores.isEmpty()) { 
             this.inicializarTemporizadores(vAux);
-        }
+//        }
     }
     
     private void inicializarTemporizadores(TreeMap<Integer, Proceso> v) {

@@ -41,40 +41,49 @@ public class ManejadorMensaje extends Thread{
             hmp = (HashMap<String, Proceso>) this.is.readObject();
             if (hmp.containsKey("IN")) {
                 Proceso p = hmp.get("IN");
+                P3.getLog().log(Level.INFO, "Se recibe el comunicado de que el proceso {0} ingresa al anillo.", p.getId());
                 if (!this.p.getProcesos().containsKey(p.getId())) {
                     // Agrego proceso a la lista de procesos
                     this.p.agregarProceso(p);
+                    P3.getLog().log(Level.INFO, "Se agrega el proceso {0} a la lista de procesos.", p.getId());
                     if (this.p.getTipoProceso() == TipoProceso.INTRODUCTOR) {
                       // devuelvo la lista de procesos a P
                       this.enviarListaProcesos(this.p.getProcesos(), p.getIpPropia(), p.getPuertoPropio());
                     }
                     this.p.actualizarVecinos();
                     this.comunicarEstadoProcesoVecinos(p, "IN");
+                    P3.getLog().log(Level.INFO, "Se informo a los vecinos, de la entrada del proceso {0} a la lista.", p.getId());
                 }
             } else if (hmp.containsKey("EXIT")) {
                 Proceso p = hmp.get("EXIT");
+                P3.getLog().log(Level.WARNING, "Se recibio el comunicado de que el proceso {0} ha salido del anillo.", p.getId());
                 if (this.p.getProcesos().containsKey(p.getId())) {
                     quitarProcesoTabla(this.p,p,"EXIT");
                     System.out.println("El proceso "+p.getId()+" salio del anillo.\n");
                 }
             } else if (hmp.containsKey("DEATH")) {
                 Proceso p = hmp.get("DEATH");
-                quitarProcesoTabla(this.p,p,"DEATH");
+                if (this.p.getVecinos().containsKey(p.getId())) {
+                    P3.getLog().log(Level.SEVERE, "Se recibio el comunicado de que el proceso {0} ha muerto.", p.getId());
+                    quitarProcesoTabla(this.p,p,"DEATH");
+                }
             } else if (hmp.containsKey("LIVE")) {
                 // Obtengo el proceso que viene en el mensaje
                 Proceso p = hmp.get("LIVE");
+                P3.getLog().log(Level.INFO, "Se recibio un latido del proceso {0}.", p.getId());
                 // renuevo el temporizador asociado a este proceso
                 this.p.setTemporizadorProceso(p.getId(), System.currentTimeMillis());
+                P3.getLog().log(Level.INFO, "Se actualizo el temporizador para el proceso {0}.", p.getId());
             }
         } catch (IOException ex) {
-            Logger.getLogger(ManejadorMensaje.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "Ha ocurrido un error de Entrada/Salida.");
         } catch (ClassNotFoundException ex) {
-            Logger.getLogger(ManejadorMensaje.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "No se ha encontrado la referencia a una clase especificada.");
         } finally {
             try {
                 this.is.close();
             } catch (IOException ex) {
-                Logger.getLogger(ManejadorMensaje.class.getName()).log(Level.SEVERE, null, ex);
+                P3.getLog().log(Level.SEVERE, "Ha ocurrido un error de Entrada/Salida.");
             }
         }
     }
@@ -92,11 +101,11 @@ public class ManejadorMensaje extends Thread{
             ds.close();
             os.close();
         } catch (SocketException ex) {
-            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "Error creando o accediendo a un socket.");
         } catch (UnknownHostException ex) {
-            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "No se pudo determinar la direccion IP de algun host.");
         } catch (IOException ex) {
-            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "Ha ocurrido un error de Entrada/Salida.");
         } 
     }
 
@@ -112,17 +121,17 @@ public class ManejadorMensaje extends Thread{
             DatagramPacket sendPacket = new DatagramPacket(data, data.length, ip, puerto);
             ds.send(sendPacket);
         } catch (SocketException ex) {
-            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "Error creando o accediendo a un socket.");
         } catch (UnknownHostException ex) {
-            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "No se pudo determinar la direccion IP de algun host.");
         } catch (IOException ex) {
-            Logger.getLogger(Proceso.class.getName()).log(Level.SEVERE, null, ex);
+            P3.getLog().log(Level.SEVERE, "Ha ocurrido un error de Entrada/Salida.");
         } finally {
             try {
                 ds.close();
                 os.close();
             } catch (IOException ex) {
-                Logger.getLogger(MarcaPaso.class.getName()).log(Level.SEVERE, null, ex);
+                P3.getLog().log(Level.SEVERE, "Ha ocurrido un error de Entrada/Salida.");
             }
         }
     }
@@ -154,11 +163,12 @@ public class ManejadorMensaje extends Thread{
     private void quitarProcesoTabla(Proceso tablaProceso, Proceso ProcAQuitar, String motivo){
         // Lo quito de la tabla de procesos
         tablaProceso.quitarProceso(ProcAQuitar);
-        // Lo quito de la tabla de vecinos
-        // tablaProceso.quitarVecino(ProcAQuitar);
+        P3.getLog().log(Level.INFO, "Se quito al proceso {0} de la tabla de procesos.");
         // Actualizo la tabla de vecinos
         tablaProceso.actualizarVecinos();
+        P3.getLog().log(Level.INFO, "Se actualizo la tabla de vecinos.");
         // Comunico a los vecinos restantes que se ha muerto un proceso
         comunicarEstadoProcesoVecinos(ProcAQuitar, motivo);
+        P3.getLog().log(Level.INFO, "Se informo a los vecinos que el proceso {0} salio del anillo por el siguiente motivo: {1}.", new Object[]{ProcAQuitar, motivo});
     }
 }
