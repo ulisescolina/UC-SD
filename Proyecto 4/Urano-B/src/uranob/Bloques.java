@@ -51,14 +51,27 @@ public class Bloques {
         }
     }
 
+    /**
+     * Devuelve la colección de hash y bloques de archivos almacenados
+     * @return Base de datos: hash + bloques byte
+     */
     public HashMap<String, byte[]> getDbBloques() {
         return dbBloques;
     }
-
+    
+    /**
+     * Sobre-escribe la "base de datos" de hash + bloques
+     * @param dbBloques Base de datos: hash + bloques byte
+     */
     public void setDbBloques(HashMap<String, byte[]> dbBloques) {
         this.dbBloques = dbBloques;
     }
     
+    /**
+     * Agrega una entrada en la "base de datos" de bloques
+     * @param clave hash correspondiente al bloque
+     * @param bloque secuencia de bytes del bloque
+     */
     public void addDbBloques(String clave, byte[] bloque) {
         this.dbBloques.put(clave, bloque);
     }

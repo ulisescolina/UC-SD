@@ -4,10 +4,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import Servidores.*;
 import org.apache.thrift.protocol.TBinaryProtocol;
+import org.apache.thrift.protocol.TProtocol;
 import org.apache.thrift.server.TServer;
 import org.apache.thrift.server.TThreadPoolServer;
 import org.apache.thrift.transport.TServerSocket;
 import org.apache.thrift.transport.TServerTransport;
+import org.apache.thrift.transport.TSocket;
+import org.apache.thrift.transport.TTransport;
 import org.apache.thrift.transport.TTransportFactory;
 
 public class Metadatos {
@@ -36,7 +39,7 @@ public class Metadatos {
             // defino formato del servidor
             TServer servidor = new TThreadPoolServer(argumentos);
 
-            System.out.println("Iniciando servidor...");
+            System.out.println("Iniciando servidor de metadatos...");
             // inicio el servidor
             servidor.serve();
         } catch (Exception e) {

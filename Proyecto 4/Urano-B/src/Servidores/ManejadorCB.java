@@ -9,11 +9,11 @@ import java.nio.ByteBuffer;
 import org.apache.thrift.TException;
 import uranob.Bloques;
 
-public class ManejadorCB implements ServCB.Iface{
-    
+public class ManejadorCB implements ServCB.Iface {
+
     private Bloques servB;
-    
-    public ManejadorCB(Bloques b){
+
+    public ManejadorCB(Bloques b) {
         this.servB = b;
     }
 
@@ -25,10 +25,25 @@ public class ManejadorCB implements ServCB.Iface{
     }
 
     @Override
-    public void almacenarBloque(String valorHash, ByteBuffer bloque) throws TException {
-        byte[] bytes = new byte[bloque.capacity()];
-	bloque.get(bytes, 0, bytes.length);
-        this.servB.addDbBloques(valorHash, bytes);
+    public boolean almacenarBloque(String valorHash, ByteBuffer bloque) throws TException {
+        try {
+            byte[] bytes = new byte[bloque.capacity()];
+            bloque.get(bytes, 0, bytes.length);
+            this.servB.addDbBloques(valorHash, bytes);
+            this.verBloquesAlmacenados();
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    /**
+     * Utilizado solo para depuración.
+     * Imprime en pantalla el contenido de la "BD de Bloques"
+     */
+    public void verBloquesAlmacenados () {
+        System.out.println("BDB: ");
+        System.out.println(servB.getDbBloques());
     }
     
 }
