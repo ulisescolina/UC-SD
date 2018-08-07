@@ -15,7 +15,8 @@ public class UranoM {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Metadatos metadatos = new Metadatos();
+        metadatos.iniciar();
     }
     
 }
